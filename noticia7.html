@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" href="img/iconetcc.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="noticias.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>60 curiosidades sobre gatos</title>
+</head>
+
+<body>
+
+    <!-------------header-----\/----header---\/----header----\/-----header----\/----header-------\/-------->
+
+    <header>
+
+        <div class="container-header">
+    
+         <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+    
+          <a href="index.html" class="bottom-line">Inicio</a>
+          <a href="lista.html" class="bottom-line">Lista Completa</a>
+          <a href="blog.html" class="bottom-line">Blog</a>
+          <a href="equipe.html" class="bottom-line">Equipe</a>
+          <a href="http://localhost/rafaelv/cadastro/index.php" class="bottom-line">Cadastre sua ONG</a>
+    
+          <div class="btn-container">
+            <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+          </div>
+          
+    
+         <!--AUMENTAR E DIMINUIR FONTE--> 
+    
+          <script>
+          
+          window.onload = function() {
+              var elementBody = document.querySelector('body');
+              var elementBtnIncreaseFont = document.getElementById('increase-font');
+              var elementBtnDecreaseFont = document.getElementById('decrease-font');
+              // Padrão de tamanho, equivale a 100% do valor definido no Body
+              var fontSize = 100;
+              // Valor de incremento ou decremento, equivale a 10% do valor do Body
+              var increaseDecrease = 10;
+          
+              // Evento de click para aumentar a fonte
+              elementBtnIncreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize + increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          
+              // Evento de click para diminuir a fonte
+              elementBtnDecreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize - increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          }
+          
+          </script>
+    
+    
+    <!--DARK MODE-->
+    
+        
+          <div class="toggle">
+            
+            
+            <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+            
+            <label class="toggle-label" for="myonoffswitch">
+                <span class="toggle-inner"></span>
+                <span class="toggle-switch"></span>
+            </label>
+        
+            
+    
+        </div>
+    
+    
+      </div>
+    
+      
+    
+          <script>
+    
+    function dark_mode() {
+                    var body = document.body;
+                    body.classList.toggle("dark-mode");
+    }
+    
+          </script>
+    
+    
+    
+    
+        </div>
+    
+      </header>
+
+
+    <!-------------header----/\-----header---/\----header----/\-----header----/\----header------/\--------->
+
+    <div class="container-inicial">
+
+        <div class="conteudo-inicial">
+    
+            <a href="blog.html"><h3>Blog</h3></a>
+    
+    <br>
+    
+    <h1>60 Curiosidades sobre gatos</h1>
+    
+    <br>
+    
+    <div class="prox-ant">
+    
+        <div class="seta">
+    
+           <a href="noticia6.html"><i class="fa-solid fa-chevron-left"></i></a>
+    
+        </div>
+    
+    
+    <div class="ant">
+    
+        <a href="noticia6.html">ANTERIOR</a>
+        <a href="noticia6.html"><p>Cachorro abandonado, o que fazer ao encontrar um?</p></a>
+    
+    </div>
+    
+    
+    
+    <div class="prox">
+    
+    <a href="noticia8.html">PRÓXIMO</a>
+    <a href="noticia8.html"><p>Veja 25 curiosidades sobre os cachorros</p></a>
+    
+    
+    </div>
+    
+    
+    
+    <div class="seta">
+    
+        <a href="noticia8.html"><i class="fa-solid fa-chevron-right"></i></a>
+    
+    </div>
+    
+    </div>
+    
+        </div>
+    
+    </div>
+
+    <main>
+
+      
+
+        <div class="conteudo">
+
+            <div class="img"><img src="img-blog/img20.jpg" alt=""></div>
+
+            <div class="texto">
+                <p>Os gatos são os animais de estimação mais populares de todo o mundo. Apesar de domesticados, os gatos
+                    partilham todas as características dos felinos selvagens dos quais são parentes: são fortes, ágeis,
+                    dotados de grandes reflexos, sentidos apurados e instinto de caça, além de possuírem a personalidade
+                    vincada e individualista que lhes é característica.</p>
+            </div>
+
+            <div class="texto">
+                <p>São brincalhões, muito independentes, curiosos e conseguem ser teimosos, mas são também extremamente
+                    amigáveis e afetivos: um dos gestos mais carinhosos dos gatos é a famosa turrinha, que dão entre si
+                    e
+                    aos seus donos. Outro sinal de afeição é o não menos famoso ronronar.</p>
+            </div>
+
+            <div class="texto">
+                <p>Para que os conheça melhor, partilhamos consigo 60 curiosidades sobre estes fantásticos animais:</p>
+            </div>
+            <div class="subtitulo">
+                <h3>Curiosidades</h3>
+            </div>
+            <div class="lista">
+
+                <ul>
+                    <li>Em média um gato passa 2/3 do dia a dormir. Isso significa que em 9 anos de vida, apenas está
+                        acordado 3 anos.</li>
+
+                    <li>Os gatos não saboreiam o doce.Quando um gato persegue uma presa, ao contrário de um cão ou
+                        humano, mantém a cabeça sempre para baixo</li>
+
+                    <li>Quando um gato persegue uma presa, ao contrário de um cão ou humano, mantém a cabeça sempre
+                        para baixo</li>
+
+                    <li>As bolas de pelo que vomitamos chamam-se egagropilos.</li>
+
+                    <li>As gatas tendem a ser dextras, enquanto os gatos tendem a ser maioritariamente esquerdinos.
+                    </li>
+
+                    <li>Um gato faz cerca de 100 sons diferentes, enquanto um cão faz cerca de 10.</li>
+
+                    <li>O cérebro de um gato é biologicamente mais similar ao de um humano do que o cérebro de um cão.
+                        Ambos, humanos e gatos, têm uma região idêntica no cérebro responsável pelas emoções.</li>
+
+                    <li>Existem mais de 500 milhões de gatos domésticos no mundo, e aproximadamente 40 raças
+                        reconhecidas.</li>
+
+                    <li>O gato doméstico mais antigo foi encontrado numa sepultura no Chipre com mais de 9000 anos.
+                    </li>
+
+                    <li>De acordo com uma lenda hebraica, Noé rezou a Deus para o ajudar a proteger a comida dos
+                        ratos na arca. Deus fez um Leão espirrar, e desse espirro nasceu o gato.</li>
+
+                    <li>A audição de um gato é melhor do que a de um cão. Um gato consegue ouvir sons de alta
+                        frequência, cerca de 2 oitavas acima de qualquer humano.</li>
+
+                    <li>Um gato consegue correr a 49 km por hora, em curtas distâncias.</li>
+
+                    <li>Um gato salta 5 vezes a sua altura num único salto.</li>
+
+                    <li>Alguns gatos já sobreviveram a quedas de 20 metros, devido ao reflexo de endireitamento. Os
+                        seus olhos, os órgãos e ouvido interno, dizem ao gato onde é que ele está no espaço, para que
+                        ele consiga aterrar em pé. Mesmo os gatos sem cauda possuem esta capacidade.</li>
+
+                    <li>Um gato roça num humano não apenas para mostrar afeto, mas também para marcar o seu
+                        território, devido ao odor que as glândulas à volta da sua face libertam. A cauda e as patas
+                        também têm o mesmo odor do gato.</li>
+
+                    <li>Os cientistas não têm a certeza porque é que um gato ronrona. Muitos veterinários acreditam
+                        que um gato ronrona fazendo as suas cordas vocais vibrar na zona mais profunda da garganta. Para
+                        isto ser possível, um músculo na laringe abre e fecha a passagem do ar 25 vezes por segundo.
+                    </li>
+
+                    <li>No antigo Egito, quando um gato morria, a família mostrava a sua tristeza rapando as
+                        sobrancelhas.</li>
+
+                    <li>Cada gata, em média, dá à luz entre 1 a 9 gatos de cada vez. A maior ninhada até hoje foi de
+                        19 gatinhos, mas apenas 15 sobreviveram.</li>
+
+                    <li>Atualmente, o maior felino selvagem é o Tigre Siberiano, que tem mais de 3,6 metros de
+                        comprimento e pesa mais de 300 kg.</li>
+
+                    <li>Na Austrália e no Reino Unido, os gatos pretos são sinal de boa sorte.</li>
+
+                    <li>A raça mais popular de gatos é a persa, seguida pela Maine Coon e Siamesa.</li>
+
+                    <li>A raça mais pequena de gatos é a Singapura, que pesa cerca de 1,8 kg.</li>
+
+                    <li>A raça maior de gatos é a Maine Coon, em que um gato pode pesar cerca de 12 kg.</li>
+
+                    <li>Alguns gatos siameses parecem estrábicos devido aos nervos que se localizam do lado direito
+                        do cérebro e que vão maioritariamente para o seu olho direito, e os nervos do lado direito do
+                        seu cérebro vão maioritariamente para o olho esquerdo. Isto provoca uma visão dupla, que o gato
+                        tenta corrigir, cruzando a visão.</li>
+
+                    <li>Os gatos normalmente não gostam de água, porque o seu pelo não isola bem o calor quando está
+                        húmido. No entanto, a raça Van Turco, uma variação do Angorá, oriunda da Ásia Central, possui um
+                        pelo com uma textura única que o torna resistente à água.</li>
+
+                    <li>Um gato tem geralmente 12 bigodes em cada lado da face.</li>
+
+                    <li>A visão de um gato é melhor e pior do que a de um humano: é melhor porque os gatos conseguem
+                        ver mais em ambientes mais difusos, e têm uma visão esférica superior. É pior porque não
+                        conseguem ver a cor tão bem como os humanos. Os cientistas acreditam que os gatos veem a erva em
+                        tom vermelho.</li>
+
+                    <li>Os pequenos tufos de pelo nas orelhas de um gato servem para manter a sujidade fora,
+                        direcionar sons para o ouvido e isolar as orelhas.</li>
+
+                    <li>A capacidade de um gato encontrar a sua casa é chamado de “psi-viagem”. Os especialistas
+                        acreditam que os gatos usam o ângulo da luz do sol para encontrar o caminho, ou que existem
+                        células magnéticas no seu cérebro que atuam como uma bússola.</li>
+
+                    <li>O maxilar de um gato movimenta-se em ambos os sentidos, para que um gato possa mastigar
+                        pedaços maiores de comida.</li>
+
+                    <li>Um gato quase nunca mia para outro gato, apenas a humanos. Os gatos apenas cospem, ronronam e
+                        silvam a outros gatos.</li>
+
+                    <li>As costas dos gatos são extremamente flexíveis porque têm mais de 53 vértebras, enquanto os
+                        humanos apenas têm 34.</li>
+
+                    <li>Cerca de 1 em cada 3 donos de gatos acreditam que o seu gato consegue ler a sua mente.</li>
+
+                    <li>A paixão por gatos chama-se ailurofilia, que advém do grego (gato + paixão).</li>
+
+                    <li>No Japão, acredita-se que os gatos têm o poder de se tornarem em espíritos mais elevados
+                        quando morrem.</li>
+
+                    <li>A maioria dos gatos tinha pelo curto até cerca de 100 anos atrás, quando começou a ficar na
+                        moda ter gatos e experimentar produzir raças de gatos.</li>
+
+                    <li>Os gatos têm 32 músculos que controlam o ouvido externo, enquanto os humanos têm apenas 6.
+                    </li>
+
+                    <li>38-Um gato pode rodar a sua orelha em 180 graus.</li>
+
+                    <li>O motivo pelo qual os gatinhos dormem mais é devido à hormona de crescimento, que apenas é
+                        ativada durante o sono.</li>
+
+                    <li>O gato registado com mais peso chamava-se Himmy, era um gato tigrado da Queensland, Austrália
+                        e pesava 21 kg.</li>
+
+                    <li>41-Um gato tem cerca de 130,000 pelos por cm2.</li>
+
+                    <li>Um gato, em média, pode viver até aos 20 anos, o que equivale a cerca de 100 anos humanos.
+                    </li>
+
+                    <li> O gato que mais anos viveu até hoje foi o Crème Puff de Austin, Texas, que faleceu 3 dias
+                        depois do seu 38º aniversário.</li>
+
+                    <li>A primeira banda desenhada de um gato surgiu em 1919 e chamava-se Félix o Gato.</li>
+
+                    <li>A temperatura normal de um gato ronda os 38º e 39º C. Um gato está doente se a temperatura
+                        estiver abaixo de 37º e acima de 39º C.</li>
+
+                    <li>Um gato tem 230 ossos no seu corpo. Um humano apenas tem 206.</li>
+
+                    <li>Um gato não tem clavículas, por isso, consegue passar em qualquer local que a sua cabeça
+                        também passe.</li>
+
+                    <li>O padrão do nariz de um gato é único, tal como a impressão digital de um humano.</li>
+
+                    <li>Algumas das comidas que nunca devem ser dadas a um gato são: cebola, alho, tomate verde,
+                        batata crua, chocolate, uvas e passas. Embora o leite não seja tóxico, pode causar irritação no
+                        estômago, gases e diarreia.</li>
+
+                    <li>Medicamentos como o paracetamol e a aspirina são extremamente tóxicos para os gatos, tal como
+                        grande parte das plantas que existem em casa.</li>
+
+                    <li>Dar a um gato comida humana ou de cão pode causar má nutrição e provocar doenças.</li>
+
+                    <li>Um coração felino bate quase 2 vezes mais rápido do que o de um humano: cerca de 110 a 140
+                        batidas por minuto.</li>
+
+                    <li>Os gatos não têm glândulas sudoríferas no seu corpo como os humanos têm. Em vez disso, suam
+                        pelas patas.</li>
+
+                    <li>Em apenas 7 anos, um par de gatos e os seus rebentos podem dar origem a mais de 420.000
+                        gatinhos.</li>
+
+                    <li>Em apenas 7 anos, um par de gatos e os seus rebentos podem dar origem a mais de 420.000
+                        gatinhos.</li>
+
+                    <li>Um gato adulto tem 30 dentes. Um gatinho bebé tem apenas 26 dentes temporários, que perde até
+                        aos 6 meses de idade.</li>
+
+                    <li>Os gatos são extremamente sensíveis às vibrações. Um gato deteta um tremor de terra cerca de
+                        10 a 15 minutos antes de um humano.</li>
+
+                    <li>Nos anos 30, cientistas biólogos russos descobriram que a cor dos gatinhos siameses mudava
+                        dependendo da sua temperatura corporal. Os gatos siameses têm os genes do albinismo, que são
+                        ativados apenas quando a sua temperatura corporal estiver acima dos 36,6º C. Se estes gatinhos
+                        estiverem num local mais quente, ficarão com uma cor mais esbranquiçada.</li>
+
+                    <li>O gato mais rico do mundo chama-se Blackie, à qual foram deixadas 15 000 000 libras pelo seu
+                        dono Ben Rea.</li>
+
+                    <li>Todos os gatos têm unhas. As unhas das patas traseiras de um gato não são tão afiadas como as
+                        das patas dianteiras, porque as unhas das patas traseiras não são retráteis, logo gastam-se
+                        mais.
+                    </li>
+                </ul>
+                <a href="https://redeglobo.globo.com/sp/eptv/parada-pet-ribeirao/noticia/veja-25-curiosidades-sobre-os-cachorros.ghtml
+                "><p>Fonte da notícia</p></a>
+            </div>
+        </div>
+        
+<div class="ads">
+
+    <h1>VEJA MAIS</h1>
+    
+        <br><br>
+    
+    <a href="https://www.bbc.com/portuguese/articles/c976qm2lq2zo"><img src="https://ichef.bbci.co.uk/news/723/cpsprodpb/d851/live/7fca25c0-f324-11ed-b9bf-a75f721c2a43.jpg" alt=""></a>
+    
+    <a href="https://www.bbc.com/portuguese/articles/c976qm2lq2zo" class="titulo-ads">As doenças transmitidas por animais de estimação e 9 dicas para se proteger</a>
+    
+    <br><br>
+    
+    <a href="https://www.bbc.com/portuguese/articles/c887jy7ge99o"><img src="https://ichef.bbci.co.uk/news/739/cpsprodpb/6043/live/e72d4430-e84e-11ed-a142-ab0e42bfd9c3.jpg" alt=""></a>
+    
+    <a href="https://www.bbc.com/portuguese/articles/c887jy7ge99o" class="titulo-ads">Entenda a polêmica envolvendo a capivara Filó</a>
+    
+    <br><br>
+    
+    <a href="https://www.bbc.com/portuguese/articles/c724601d7z4o"><img src="https://ichef.bbci.co.uk/news/800/cpsprodpb/ef27/live/50426180-c595-11ed-95f8-0154daa64c44.jpg" alt=""></a>
+    
+    <a href="https://www.bbc.com/portuguese/articles/c724601d7z4o" class="titulo-ads">O que pode ter causado a morte de milhões de peixes em cidade da Austrália</a>
+    
+    </div>
+    </main>
+
+    <footer>
+        <a href="#"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+        
+        <div class="main-footer">
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"> Mapa do Site</span>
+            <a href="lista.html">Lista Completa</a>
+            <a href="blog.html">Blog</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo">Nossas Redes</span>
+            <div class="redes">
+              <a href="">  
+                <i class="fa-brands fa-instagram" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-facebook" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            </div>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+        </div>
+        
+        </div><!--/main-footer/-->
+        
+        <hr>
+        
+        <span class="direitos">© 2023  Infopets - Todos os Direitos Reservados</span>
+        
+        </footer>
+    
+
+</body>
+
+</html>

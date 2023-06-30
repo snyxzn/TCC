@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" href="img/iconetcc.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="noticias.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>benefícios da castração de gatos</title>
+</head>
+
+<body>
+
+ <!-------------header-----\/----header---\/----header----\/-----header----\/----header-------\/-------->
+
+
+ <header>
+
+    <div class="container-header">
+
+     <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+
+      <a href="index.html" class="bottom-line">Inicio</a>
+      <a href="lista.html" class="bottom-line">Lista Completa</a>
+      <a href="blog.html" class="bottom-line">Blog</a>
+      <a href="equipe.html" class="bottom-line">Equipe</a>
+      <a href="http://localhost/rafaelv/cadastro/index.php" class="bottom-line">Cadastre sua ONG</a>
+
+      <div class="btn-container">
+        <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+      </div>
+      
+
+     <!--AUMENTAR E DIMINUIR FONTE--> 
+
+      <script>
+      
+      window.onload = function() {
+          var elementBody = document.querySelector('body');
+          var elementBtnIncreaseFont = document.getElementById('increase-font');
+          var elementBtnDecreaseFont = document.getElementById('decrease-font');
+          // Padrão de tamanho, equivale a 100% do valor definido no Body
+          var fontSize = 100;
+          // Valor de incremento ou decremento, equivale a 10% do valor do Body
+          var increaseDecrease = 10;
+      
+          // Evento de click para aumentar a fonte
+          elementBtnIncreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize + increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      
+          // Evento de click para diminuir a fonte
+          elementBtnDecreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize - increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      }
+      
+      </script>
+
+
+<!--DARK MODE-->
+
+    
+      <div class="toggle">
+        
+        
+        <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+        
+        <label class="toggle-label" for="myonoffswitch">
+            <span class="toggle-inner"></span>
+            <span class="toggle-switch"></span>
+        </label>
+    
+        
+
+    </div>
+
+
+  </div>
+
+  
+
+      <script>
+
+function dark_mode() {
+                var body = document.body;
+                body.classList.toggle("dark-mode");
+}
+
+      </script>
+
+
+
+
+    </div>
+
+  </header>
+
+
+  <!-------------header----/\-----header---/\----header----/\-----header----/\----header------/\--------->
+
+
+    <!------CONTEUDO-----------CONTEUDO-------------CONTEUDO------------->
+
+    <div class="container-inicial">
+
+        <div class="conteudo-inicial">
+    
+            <a href="blog.html"><h3>Blog</h3></a>
+    
+    <br>
+    
+    <h1>Castração para Gatos</h1>
+    
+    <br>
+    
+    <div class="prox-ant">
+    
+        <div class="seta">
+    
+           <a href="noticia2.html"><i class="fa-solid fa-chevron-left"></i></a>
+    
+        </div>
+    
+    
+    <div class="ant">
+    
+        <a href="noticia2.html">ANTERIOR</a>
+        <a href="noticia2.html"><p>Alimentação para cães</p></a>
+    
+    </div>
+    
+    
+    
+    <div class="prox">
+    
+    <a href="noticia4.html">PRÓXIMO</a>
+    <a href="noticia4.html"><p>Adaptar cachorro ao novo lar</p></a>
+    
+    
+    </div>
+    
+    
+    
+    <div class="seta">
+    
+        <a href="noticia4.html"><i class="fa-solid fa-chevron-right"></i></a>
+    
+    </div>
+    
+    </div>
+    
+        </div>
+    
+    </div>
+
+    <main>
+
+
+
+        <div class="conteudo">
+
+
+            <div class="img">
+                <img src="img-blog/img4.jpg" alt="">
+            </div>
+
+            <div class="texto">
+                <p>Apesar de altamente recomendada por veterinários, a castração ainda gera muita dúvida entre os
+                    tutores. Afinal, pode parecer estranho para nós submeter o pet a uma cirurgia antes mesmo do
+                    primeiro ano de vida sem que ele tenha qualquer problema de saúde, mas são inegáveis os benefícios
+                    da castração em gatos. </p>
+            </div>
+
+            <div class="texto">
+                <p>Mas saiba que atuar como medida preventiva, ajudando a minimizar o risco de certas doenças graves, é
+                    justamente um dos benefícios de castrar o gato. A seguir, leia mais sobre o procedimento e por que
+                    ele é tão importante para o bichano.</p>
+            </div>
+
+            <div class="img">
+                <img src="img-blog/img17.webp" alt="">
+            </div>
+
+            <div class="subtitulo">
+                <h2>Afinal, como é a castração de gatos? Ela é mesmo segura?</h2>
+            </div>
+
+            <div class="texto">
+                <p>Antes de falar quais os benefícios da castração em gatos, não custa nada retomar alguns pontos a
+                    respeito do procedimento. </p>
+            </div>
+
+            <div class="texto">
+                <p>Como muitos sabem, a cirurgia de castração de gato consiste na retirada dos testículos e estruturas
+                    adjacentes dos machos e na retirada de útero e ovários nas fêmeas, o que resulta não apenas na
+                    impossibilidade de reprodução, mas também em mudanças na produção de hormônios sexuais. </p>
+            </div>
+
+            <div class="texto">
+                <p>Estes, por sua vez, podem favorecer o surgimento de doenças, tais como alguns tipos de câncer, além
+                    de influenciarem o comportamento do pet. Embora seja um pouco mais invasiva para as fêmeas do que
+                    para os machos, trata-se de um procedimento simples e bastante frequente na rotina veterinária. </p>
+            </div>
+
+            <div class="texto">
+                <p>Entretanto, como em toda cirurgia, ela depende de anestesia e não está livre de riscos. Daí a
+                    importância de castrar gatos em um local de confiança e realizar um check-up no pet antes do
+                    procedimento. Realizada a cirurgia, o período de recuperação é de cerca de uma semana para os machos
+                    e dez dias para as fêmeas. </p>
+            </div>
+
+            <div class="subtitulo">
+                <h2>Cuidados no pós-operatório</h2>
+            </div>
+
+            <div class="texto">
+                <p>Sempre de acordo com as orientações do veterinário ou veterinária responsável, o pós-operatório requer o uso de colar elisabetano e roupa cirúrgica, além de antissépticos locais e medicações, como anti-inflamatórios, antibióticos e analgésicos.</p>
+            </div>
+
+            <div class="texto">
+                <p>Sobre quando castrar o gato macho, a recomendação é que o procedimento seja feito logo após ele atingir a maturidade sexual. Já a fêmea, entre o primeiro e o segundo cio. Seja como for, a castração pode ser benéfica em todas as etapas da vida, mesmo em se tratando de gatos resgatados da rua com idade avançada. </p>
+            </div>
+
+            <div class="img">
+                <img src="img-blog/img19.jpg" alt="">
+            </div>
+
+            <div class="subtitulo"><h2>Benefícios da castração para gatos e tutores</h2></div>
+
+            <div class="texto">
+                <p>Agora que você já sabe como é a cirurgia, é hora de descobrir os benefícios da castração em gatos, tanto para os bichanos quanto para os tutores. Lembrando que a cirurgia é indicada para pets de qualquer idade!</p>
+            </div>
+
+            <div class="texto">
+                <p>Conforme explica a Dra. Renata Brunetto, médica-veterinária da Petz, um dos principais benefícios da castração em gatos e nos demais pets é a prevenção contra algumas doenças ligadas aos hormônios sexuais, como gravidez psicológica, piometra e câncer de mama nas fêmeas, além de complicações na próstata e tumores testiculares nos machos. </p>
+            </div>
+
+            <div class="texto">
+                <p>Mas não é só isso: a castração também pode ter um papel importante na redução do estresse, problema comum entre os gatos, na medida que a diminuição da produção hormonal ajuda a manter os bichanos mais tranquilos. </p>
+            </div>
+
+            <div class="texto">
+                <p>Entre os comportamentos que podem ser minimizados com a castração estão o ímpeto de fuga, especialmente quando vinculado à busca por parceiros sexuais, e a marcação de território. </p>
+            </div>
+
+            <div class="texto">
+                <p>Lembrando que tanto a exploração quanto a marcação de território são comportamentos naturais dos bichanos. Portanto, não espere que esses comportamentos desapareçam por completo. </p>
+            </div>
+
+            <div class="img"><img src="img-blog/img18.webp" alt=""></div>
+
+            <div class="texto">
+                <p>Nesse sentido, a Dra. Louise Veiga da Silva Siqueira, médica-veterinária da Petz, reforça que, com castração ou não, a única maneira de impedir que o gatinho tenha acesso à rua é colocar telas em todas as janelas e sacadas. </p>
+            </div>
+
+            <div class="texto">
+                <p>Isso é muito importante para a segurança do felino, ajudando a evitar acidentes graves ou mesmo fatais, como quedas e atropelamentos.</p>
+            </div>
+
+            <div class="subtitulo"><h2>Castração e o controle populacional de pets abandonados</h2></div>
+
+            <div class="texto">
+                <p>É impossível garantir 100% a segurança de um gato com acesso à rua, local onde estão sujeitos à contaminação por doenças transmissíveis, como FIV, FeLV e esporotricose. </p>
+            </div>
+
+            <div class="texto">
+                <p>Sem contar o risco de que se envolvam em brigas com outros bichanos, que passem por maus- tratos ou mesmo por situações de atropelamento. </p>
+            </div>
+
+            <div class="texto">
+                <p>Mas mesmo que esse não fosse o caso, é preciso pensar também no impacto que as saídas de pets não castrados podem ter no aumento do número de animais abandonados. </p>
+            </div>
+
+            <div class="texto">
+                <p>Lembrando que mesmo gatos domiciliados que passam o tempo todo dentro de casa estão sujeitos a escapar em algum momento, por exemplo quando uma visita se alonga um pouco mais na porta do apartamento. </p>
+            </div>
+
+            <div class="subtitulo"><h2>Desvantagens da castração: é verdade que o gato engorda?</h2></div>
+
+            <div class="texto">
+                <p>De acordo com a Dra. Louise Veiga, alguns animais podem, sim, apresentar ganho de peso devido à redução da atividade física e ao aumento da ingestão de alimentos.</p>
+            </div>
+
+            <div class="texto">
+                <p>“A recomendação é que o peso do pet seja acompanhado antes e após o procedimento”, diz a veterinária. “O ajuste da quantidade diária de calorias ingeridas é importante para minimizar esse tipo de ocorrência”, completa. </p>
+            </div>
+
+            <div class="texto">
+                <p>Atualmente, existem diversas rações para gatos formuladas de acordo com as necessidades específicas de bichanos que passaram pela cirurgia, sendo menos calóricas e ricas em fibras e proteínas de alta qualidade. Antes de fazer a mudança, consulte um veterinário. </p>
+            </div>
+
+            <div class="img"><img src="img-blog/img20.jpg" alt=""></div>
+
+            <div class="texto">
+                
+                <a href="https://www.adotepetz.com.br/blog/beneficios-da-castracao-de-gatos/"><p>Fonte da notícia</p></a>
+                <p>Agora que você conhece os benefícios da castração em gatos, que tal conferir nossos outros conteúdos? Aqui, você encontra muitas outras informações importantes que te ajudarão a ser um tutor ainda melhor!</p>
+            </div>
+
+
+
+
+
+
+        </div>
+        
+<div class="ads">
+
+    <h1>VEJA MAIS</h1>
+    
+        <br><br>
+    
+    <a href=""><img src="https://veja.abril.com.br/wp-content/uploads/2023/01/GettyImages-617929674.jpg?quality=90&strip=info&w=1280&h=720&crop=1" alt=""></a>
+    
+    <a href="https://veja.abril.com.br/ciencia/estudo-mostra-como-os-caes-se-tornaram-pets/" class="titulo-ads">Estudo mostra como os cães se tornaram pets</a>
+    
+    <br><br>
+    
+    <a href="https://veja.abril.com.br/coluna/radar/empresas-de-cosmeticos-celebram-proibicao-de-testes-em-animais/"><img src="https://veja.abril.com.br/wp-content/uploads/2016/05/brasil-protestos-direitos-animais-sao-roque-20131019-01-original3.jpeg?quality=90&strip=info&w=1040&h=585&crop=1" alt=""></a>
+    
+    <a href="https://veja.abril.com.br/coluna/radar/empresas-de-cosmeticos-celebram-proibicao-de-testes-em-animais/" class="titulo-ads">Centenas de leões-marinhos estão morrendo na Califórnia. A culpa é das algas?</a>
+    
+    <br><br>
+    
+    <a href="https://veja.abril.com.br/mundo/recorde-golfinhos-praias-francesas/"><img src="https://veja.abril.com.br/wp-content/uploads/2023/02/000_339Y2P6.jpg?quality=90&strip=info&w=1280&h=720&crop=1" alt=""></a>
+    
+    <a href="https://veja.abril.com.br/mundo/recorde-golfinhos-praias-francesas/" class="titulo-ads">Número de golfinhos mortos encontrados em praias francesas bate recorde 
+
+</a>
+    
+    </div>
+    </main>
+    <!------CONTEUDO-----------CONTEUDO-------------CONTEUDO------------->
+
+    <footer>
+        <a href="#"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+        
+        <div class="main-footer">
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"> Mapa do Site</span>
+            <a href="lista.html">Lista Completa</a>
+            <a href="blog.html">Blog</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo">Nossas Redes</span>
+            <div class="redes">
+              <a href="">  
+                <i class="fa-brands fa-instagram" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-facebook" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            </div>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+        </div>
+        
+        </div><!--/main-footer/-->
+        
+        <hr>
+        
+        <span class="direitos">© 2023  Infopets - Todos os Direitos Reservados</span>
+        
+        </footer>
+    
+
+</body>
+
+</html>

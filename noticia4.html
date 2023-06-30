@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <link rel="icon" href="img/iconetcc.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="noticias.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saiba como adaptar o cachorro ao novo lar</title>
+</head>
+
+<body>
+
+ <!-------------header-----\/----header---\/----header----\/-----header----\/----header-------\/-------->
+
+
+ <header>
+
+    <div class="container-header">
+
+     <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+
+      <a href="index.html" class="bottom-line">Inicio</a>
+      <a href="lista.html" class="bottom-line">Lista Completa</a>
+      <a href="blog.html" class="bottom-line">Blog</a>
+      <a href="equipe.html" class="bottom-line">Equipe</a>
+      <a href="http://localhost/rafaelv/cadastro/index.php" class="bottom-line">Cadastre sua ONG</a>
+
+      <div class="btn-container">
+        <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+      </div>
+      
+
+     <!--AUMENTAR E DIMINUIR FONTE--> 
+
+      <script>
+      
+      window.onload = function() {
+          var elementBody = document.querySelector('body');
+          var elementBtnIncreaseFont = document.getElementById('increase-font');
+          var elementBtnDecreaseFont = document.getElementById('decrease-font');
+          // Padrão de tamanho, equivale a 100% do valor definido no Body
+          var fontSize = 100;
+          // Valor de incremento ou decremento, equivale a 10% do valor do Body
+          var increaseDecrease = 10;
+      
+          // Evento de click para aumentar a fonte
+          elementBtnIncreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize + increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      
+          // Evento de click para diminuir a fonte
+          elementBtnDecreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize - increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      }
+      
+      </script>
+
+
+<!--DARK MODE-->
+
+    
+      <div class="toggle">
+        
+        
+        <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+        
+        <label class="toggle-label" for="myonoffswitch">
+            <span class="toggle-inner"></span>
+            <span class="toggle-switch"></span>
+        </label>
+    
+        
+
+    </div>
+
+
+  </div>
+
+  
+
+      <script>
+
+function dark_mode() {
+                var body = document.body;
+                body.classList.toggle("dark-mode");
+}
+
+      </script>
+
+
+
+
+    </div>
+
+  </header>
+
+
+  <!-------------header----/\-----header---/\----header----/\-----header----/\----header------/\--------->
+
+  <div class="container-inicial">
+
+    <div class="conteudo-inicial">
+
+        <a href="blog.html"><h3>Blog</h3></a>
+
+<br>
+
+<h1>Adaptar Cachorro ao novo lar</h1>
+
+<br>
+
+<div class="prox-ant">
+
+    <div class="seta">
+
+       <a href="noticia3.html"><i class="fa-solid fa-chevron-left"></i></a>
+
+    </div>
+
+
+<div class="ant">
+
+    <a href="noticia3.html">ANTERIOR</a>
+    <a href="noticia3.html"><p>Castração para Gatos</p></a>
+
+</div>
+
+
+
+<div class="prox">
+
+<a href="noticia5.html">PRÓXIMO</a>
+<a href="noticia5.html"><p>Gato Resgatado, como habitua-lo</p></a>
+
+
+</div>
+
+
+
+<div class="seta">
+
+    <a href="noticia5.html"><i class="fa-solid fa-chevron-right"></i></a>
+
+</div>
+
+</div>
+
+    </div>
+
+</div>
+
+    <main>
+       
+
+        <div class="conteudo">
+            <div class="img"><img src="img-blog/img5.jpg" alt=""></div>
+
+            <div class="texto">
+                <p>A chegada de um pet em nossa casa é um momento de muito amor e alegria. No entanto, o período requer cuidados especiais no que diz respeito a como adaptar o cachorro ao novo lar. </p>
+            </div>
+
+            <div class="texto">
+                <p>Afinal, por mais que receba muito carinho, o pet também precisa de um tempo para se acostumar com um novo ambiente e com pessoas diferentes. </p>
+            </div>
+
+            <div class="texto">
+                <p>Felizmente, exceto em casos de cães com traumas importantes decorrentes de experiências prévias negativas como maus-tratos, a maior parte dos pets não leva muito tempo para se sentir à vontade no novo lar e para criar um vínculo com a família. </p>
+            </div>
+
+            <div class="img"><img src="img-blog/img21.webp" alt=""></div>
+
+            <div class="texto">
+                <p>Mesmo assim, algumas medidas ajudam a fazer com que o cãozinho se sinta confortável e seguro mais rapidamente. A seguir, listamos algumas dicas de como receber um cachorro novo em casa, com tudo que ele precisa e merece!.</p>
+            </div>
+
+            <div class="subtitulo"><h2>Se possível, agende uma consultoria comportamental</h2></div>
+
+            <div class="texto">
+                <p>Fundamental no caso de pets que tenham sido marcados por experiências muito negativas, a consultoria comportamental é de grande ajuda também no caso de cães em bom estado de saúde física e emocional, contribuindo para evitar o surgimento de problemas desde o início e também a longo prazo. </p>
+            </div>
+            
+            <div class="texto">
+                <p>Pertencentes a uma espécie muito distinta da nossa, os cães têm necessidades específicas, que devem ser atendidas para que mantenham seu bem-estar e, assim, ter como adaptar o cachorro ao novo lar. </p>
+            </div>
+
+            <div class="texto">
+                <p>O problema é que o comportamento dos cachorros não são tão intuitivos para nós, de modo que pode ser difícil para um tutor conhecê-los ou colocar as necessidades do pet em prática sem a ajuda de um especialista.</p>
+            </div>
+
+            <div class="texto">
+                <p>Com duração média de uma a duas horas, as consultas comportamentais são muito úteis para obter orientações de como satisfazer essas necessidades caninas, levando em conta aspectos particulares, como o espaço que você tem em casa e sua rotina. </p>
+            </div>
+
+            <div class="texto">
+                <p>Pode parecer uma despesa supérflua, mas acredite: ela compensa à medida que evita gastos com acessórios desnecessários e diminui a chance de o pet desenvolver comportamentos indesejados, contribuindo para uma convivência harmoniosa. </p>
+            </div>
+
+            <div class="subtitulo"><h2>Promova o enriquecimento ambiental</h2></div>
+
+            <div class="texto">
+                <p>Por mais que mudar de residência sempre nos cause uma sensação de estranhamento, o fato de nos depararmos com um local preparado para atender às nossas necessidades, com cama, banheiro, cozinha e espaços de lazer adequados, facilita muito nossa adaptação. E com os cães não é muito diferente. </p>
+            </div>
+
+            <div class="texto">
+                <p>A fim de que o pet se sinta mais confortável e seguro no novo lar, é fundamental garantir certos cuidados com o cachorro, com recursos que os permita ter suas necessidades físicas e mentais atendidas e expressar comportamentos naturais. </p>
+            </div>
+
+            <div class="img"><img src="img-blog/img22.webp" alt=""></div>
+
+            <div class="texto">
+                <p>Entre os itens essenciais no preparo de um ambiente para cachorro estão:</p>
+            </div>
+
+            <div class="lista">
+                <ul>
+                    <li>comedouro; </li>
+                    <li>bebedouro; </li>
+                    <li>brinquedos com diferentes propostas e casinha ou toca. </li>
+                </ul>
+            </div>
+
+            <div class="texto">
+                <p>Sobre esse último acessório, ele é recomendado inclusive para cães que passarão o tempo todo em ambiente indoor, servindo de refúgio ao proteger as laterais e as partes traseira e superior do pet. Isso dá mais segurança ao cachorro. </p>
+            </div>
+
+            <div class="subtitulo"><h2>Estabeleça uma rotina desde o início</h2></div>
+
+            <div class="texto">
+                <p>A previsibilidade é algo muito importante para ter como adaptar o cachorro ao novo lar e oferecer o bem-estar necessário ao seu novo amigo. Ter um horário para acordar, para dormir, para as refeições e para passear são coisas que ajudam esses pets a se sentirem menos ansiosos. </p>
+            </div>
+
+            <div class="texto">
+                <p>Nesse sentido, é importante que, além de estabelecer horários, você crie uma rotina rica em estímulos adequados, o que, como visto, pode ser feito com a ajuda do enriquecimento ambiental. Mas, quanto tempo um cachorro leva para se adaptar a um novo lar? </p>
+            </div>
+
+            <div class="img"><img src="img-blog/IMG23.jpg" alt=""></div>
+
+            <div class="texto">
+                <p>É válido destacar que o período de adaptação deve servir para acostumar o pet com a rotina que ele terá a longo prazo. Isto é, se você precisa dormir cedo para trabalhar no dia seguinte, não adianta brincar com o novo amigo madrugada adentro. Ao contrário, é importante já ir habituando o cachorro a seus horários.</p>
+            </div>
+
+            <div class="texto">
+                <p>Também é importante pontuar que seguir uma rotina não significa que os cães devam brincar com determinado brinquedo em horários pré-estabelecidos por você. Na verdade, é essencial que ele tenha oportunidades para escolher o brinquedo com o qual deseja interagir. </p>
+            </div>
+
+            <div class="subtitulo"><h2>Crie regras e seja consistente com elas</h2></div>
+
+            <div class="texto">
+                <p>Na mesma toada da dica anterior, é um equívoco achar que os primeiros dias devem ser encarados como exceções nas quais podemos permitir que o pet faça tudo aquilo que não poderá fazer num futuro próximo. </p>
+            </div>
+
+            <div class="texto">
+                <p>Afinal, se acostumamos o novo amigo a dormir no quarto conosco ou a subir no sofá logo de início, é mais difícil ensinar a ele que não poderá fazer mais isso quando o hábito se tornar incômodo. Isso vale, inclusive, para a adaptação de cachorro filhote!</p>
+            </div>
+
+            <div class="texto">
+                <p>Estabelecer regras e segui-las desde os primeiros momentos do cachorro em casa evita que ele tenha que passar por uma nova adaptação quando o período de permissividade passar e a vida “voltar ao normal”.</p>
+            </div>
+
+            <div class="subtitulo"><h2>Acostume o pet a ficar sozinho</h2></div>
+
+            <div class="texto">
+                <p>E por falar em acostumar o pet com a rotina que ele deverá seguir na maior parte de seus dias, por mais que pareça contraintuitivo deixá-lo sozinho no período de adaptação, a medida é importante. </p>
+            </div>
+
+            <div class="texto">
+                <p>Isso serve para ele não sofrer muito quando for preciso sair de casa todos os dias para trabalhar ou mesmo para um passeio, sendo necessário deixar o novo amigo sozinho. Nesse sentido, procure interagir com o pet especialmente nos momentos em que você costuma estar em casa, como de manhã ou no fim da tarde. </p>
+            </div>
+
+            <div class="img"><img src="img-blog/img5.jpg" alt="">
+            </div>
+
+            <div class="texto">
+                <p>Mesmo estando em casa ao longo do dia na fase de adaptação, procure cortar o contato visual com o pet em alguns momentos, deixando-o num cômodo separado e enriquecido, onde ele possa se manter entretido e habituar-se à sua ausência. </p>
+            </div>
+
+            <div class="texto">
+                <p>Finalmente, a criação de um vínculo com os tutores é uma parte importante na adaptação do cachorro ao novo lar. Por isso, brinque, dê muito carinho a seu amigo e aposte em técnicas de adestramento positivo, premiando com petiscos comportamentos desejados.</p>
+            </div>
+
+            <div class="texto">
+                <a href="https://www.adotepetz.com.br/blog/saiba-como-adaptar-o-cachorro-ao-novo-lar/"><p>Fonte da notícia</p></a>
+                <p>Agora que você sabe como adaptar o cachorro ao novo lar e oferecer tudo o que o seu mais novo amigo precisa, não deixe de conferir as outras publicações no nosso <a href="blog.html"> blog!</a> Aqui, você encontra dicas que te tornarão um tutor ainda melhor. </p>
+            </div>
+
+        </div>
+        
+<div class="ads">
+
+    <h1>VEJA MAIS</h1>
+    
+        <br><br>
+    
+    <a href=""><img src="https://veja.abril.com.br/wp-content/uploads/2019/02/saude-medicina-veterinaria-20130206-032-copy.jpg?quality=90&strip=info&w=1280&h=720&crop=1" alt=""></a>
+    
+    <a href="https://veja.abril.com.br/coluna/radar-economico/telemedicina-veterinaria-amplia-leque-de-servicos-voltados-a-pets/" class="titulo-ads">Telemedicina veterinária amplia leque de serviços voltados a pets 
+
+       </a>
+    
+    <br><br>
+    
+    <a href="https://exame.com/bussola/petlove-comemora-aniversario-com-mais-de-r-500-mil-em-premios/"><img src="https://classic.exame.com/wp-content/uploads/2023/06/PetLove.jpeg?quality=70&strip=info&w=1024" alt=""></a>
+    
+    <a href="https://exame.com/bussola/petlove-comemora-aniversario-com-mais-de-r-500-mil-em-premios/" class="titulo-ads">Petlove comemora aniversário com mais de R$ 500 mil em prêmios</a>
+    
+    <br><br>
+    
+    <a href="https://exame.com/pop/creche-para-caes-beneficios-e-cuidados-essenciais-para-o-seu-pet/"><img src="https://classic.exame.com/wp-content/uploads/2021/05/WhatsApp-Image-2021-05-25-at-19.19.40-1.jpeg?quality=70&strip=info&w=1024" alt=""></a>
+    
+    <a href="https://exame.com/pop/creche-para-caes-beneficios-e-cuidados-essenciais-para-o-seu-pet/" class="titulo-ads">Creche para cães: benefícios e cuidados essenciais para o seu pet</a>
+    
+    </div>
+    </main>
+
+    <footer>
+        <a href="#"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+        
+        <div class="main-footer">
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"> Mapa do Site</span>
+            <a href="lista.html">Lista Completa</a>
+            <a href="blog.html">Blog</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo">Nossas Redes</span>
+            <div class="redes">
+              <a href="">  
+                <i class="fa-brands fa-instagram" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-facebook" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            </div>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+        </div>
+        
+        </div><!--/main-footer/-->
+        
+        <hr>
+        
+        <span class="direitos">© 2023  Infopets - Todos os Direitos Reservados</span>
+        
+        </footer>
+    
+
+</body>
+
+</html>

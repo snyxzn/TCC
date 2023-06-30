@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <link rel="icon" href="img/iconetcc.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="noticias.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gato resgatado: como habituá-lo ao novo ambiente</title>
+</head>
+
+<body>
+
+
+
+     <!-------------header-----\/----header---\/----header----\/-----header----\/----header-------\/-------->
+
+
+     <header>
+
+        <div class="container-header">
+    
+         <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+    
+          <a href="index.html" class="bottom-line">Inicio</a>
+          <a href="lista.html" class="bottom-line">Lista Completa</a>
+          <a href="blog.html" class="bottom-line">Blog</a>
+          <a href="equipe.html" class="bottom-line">Equipe</a>
+          <a href="http://localhost/rafaelv/cadastro/index.php" class="bottom-line">Cadastre sua ONG</a>
+    
+          <div class="btn-container">
+            <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+          </div>
+          
+    
+         <!--AUMENTAR E DIMINUIR FONTE--> 
+    
+          <script>
+          
+          window.onload = function() {
+              var elementBody = document.querySelector('body');
+              var elementBtnIncreaseFont = document.getElementById('increase-font');
+              var elementBtnDecreaseFont = document.getElementById('decrease-font');
+              // Padrão de tamanho, equivale a 100% do valor definido no Body
+              var fontSize = 100;
+              // Valor de incremento ou decremento, equivale a 10% do valor do Body
+              var increaseDecrease = 10;
+          
+              // Evento de click para aumentar a fonte
+              elementBtnIncreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize + increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          
+              // Evento de click para diminuir a fonte
+              elementBtnDecreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize - increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          }
+          
+          </script>
+    
+    
+    <!--DARK MODE-->
+    
+        
+          <div class="toggle">
+            
+            
+            <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+            
+            <label class="toggle-label" for="myonoffswitch">
+                <span class="toggle-inner"></span>
+                <span class="toggle-switch"></span>
+            </label>
+        
+            
+    
+        </div>
+    
+    
+      </div>
+    
+      
+    
+          <script>
+    
+    function dark_mode() {
+                    var body = document.body;
+                    body.classList.toggle("dark-mode");
+    }
+    
+          </script>
+    
+    
+    
+    
+        </div>
+    
+      </header>
+
+
+  <!-------------header----/\-----header---/\----header----/\-----header----/\----header------/\--------->
+
+    <!------CONTEUDO-----------CONTEUDO-------------CONTEUDO------------->
+
+    <div class="container-inicial">
+
+        <div class="conteudo-inicial">
+    
+            <a href="blog.html"><h3>Blog</h3></a>
+    
+    <br>
+    
+    <h1>Gato Resgatado: como habitua-lo</h1>
+    
+    <br>
+    
+    <div class="prox-ant">
+    
+        <div class="seta">
+    
+           <a href="noticia4.html"><i class="fa-solid fa-chevron-left"></i></a>
+    
+        </div>
+    
+    
+    <div class="ant">
+    
+        <a href="noticia4.html">ANTERIOR</a>
+        <a href="noticia4.html"><p>Como adaptar cachorro ao novo lar</p></a>
+    
+    </div>
+    
+    
+    
+    <div class="prox">
+    
+    <a href="noticia6.html">PRÓXIMO</a>
+    <a href="noticia6.html"><p>Cachorro abandonado, O que fazer ao encontrar um ?</p></a>
+    
+    
+    </div>
+    
+    
+    
+    <div class="seta">
+    
+        <a href="noticia6.html"><i class="fa-solid fa-chevron-right"></i></a>
+    
+    </div>
+    
+    </div>
+    
+        </div>
+    
+    </div>
+
+    <main>
+        
+
+        <div class="conteudo">
+
+            <div class="img"><img src="img-blog/img6.jpg" alt=""></div>
+
+            <div class="texto">
+                <p>Quando pensamos em adotar um bichano, é comum nos projetarmos para o futuro, imaginando cenas de
+                    carinho e diversão com o amigo de quatro patas. Sem dúvidas, uma vez que o gato resgatado esteja
+                    adaptado ao ambiente e tenha criado um vínculo com você e sua família, pode ter certeza de que ele
+                    dará a vocês muito amor e alegria. </p>
+            </div>
+
+            <div class="texto">
+                <p>Contudo, até que isso aconteça, é fundamental tomar algumas medidas a fim de facilitar a adaptação do
+                    bichano, em especial quando se trata de um gato encontrado na rua ou que tenha sido resgatado de
+                    outra forma. </p>
+            </div>
+
+            <div class="img"><img src="img-blog/img24.webp" alt=""></div>
+
+            <div class="texto">
+                <p>Por mais que pareçam sociáveis, pets abandonados frequentemente já passaram por situações
+                    traumáticas, como maus-tratos, o que pode influenciar a adaptação no novo lar. Aliás, vale o alerta:
+                    é necessário alguns cuidados em um resgate de gato encontrado na rua!</p>
+            </div>
+
+            <div class="texto">
+                <p>Mas mesmo bichanos emocionalmente saudáveis, como filhotes que tenham crescido em abrigos, precisam
+                    de um tempo e cuidados para se adaptarem. </p>
+            </div>
+
+            <div class="subtitulo">
+                <h2>Primeiros contatos do bichano com o novo lar</h2>
+            </div>
+
+            <div class="texto">
+                <p>Informar-se previamente sobre o que você deve fazer ao levar um novo amigo para casa é importante
+                    para evitar experiências negativas desde o início. </p>
+            </div>
+
+            <div class="texto">
+                <p>No caso da chegada do pet em nossa casa, garantir a segurança dele colocando telas em sacadas e
+                    janelas é imprescindível para evitar acidentes que podem ser fatais. Feito isso e após ter adquirido
+                    alguns recursos básicos para o gatinho, não basta soltá-lo de uma vez na casa ou apartamento. </p>
+            </div>
+
+            <div class="texto">
+                <p>No caso da chegada do pet em nossa casa, garantir a segurança dele colocando telas em sacadas e
+                    janelas é imprescindível para evitar acidentes que podem ser fatais. Feito isso e após ter adquirido
+                    alguns recursos básicos para o gatinho, não basta soltá-lo de uma vez na casa ou apartamento. </p>
+            </div>
+
+            <div class="texto">
+                <p>Como animais essencialmente territorialistas, os gatos estranham bastante a chegada em um local
+                    completamente novo, cujos odores são diferentes daqueles com os quais estava habituado. </p>
+            </div>
+
+            <div class="texto">
+                <p>Sendo assim, para lidar com o estresse e, de quebra, marcar o território, deixando seu cheirinho no
+                    ambiente, não é raro que o gato resgatado passe a arranhar a cortina, o sofá e outros objetos, de
+                    modo que, além de ser traumática para ele, a experiência também pode acabar sendo custosa e
+                    desgastante para o tutor.</p>
+            </div>
+
+            <div class="texto">
+                <p>Para evitar que isso aconteça, a dica é selecionar um cômodo da casa e começar a habituar o pet ao
+                    ambiente a partir dele. Nesse sentido, escolha um ambiente seguro e relevante do ponto de vista
+                    social, mas que não seja o principal local de convivência.</p>
+            </div>
+
+            <div class="texto">
+                <p>Lembre-se de que, no futuro, o pet passará a usar esse espaço como refúgio em caso de visitas, por
+                    exemplo.</p>
+            </div>
+
+            <div class="img"><img src="img-blog/img25.webp" alt=""></div>
+
+            <div class="subtitulo">
+                <h2>Como preparar o ambiente para receber o pet</h2>
+            </div>
+
+            <div class="texto">
+                <p>Uma vez escolhido o cômodo com o qual o gato resgatado irá se habituar, não se esqueça de bloquear
+                    locais muito procurados pelos pets como refúgio, a exemplo de vãos embaixo da cama ou do sofá. </p>
+            </div>
+
+            <div class="texto">
+                <p>Isso evitará que você tenha que remover o pet à força em algum momento, o que pode prejudicar a
+                    relação de vocês, deixando o gato com medo ou irritado. </p>
+            </div>
+
+            <div class="texto">
+                <p>Em vez disso, procure equipar o cômodo com tocas e outros recursos básicos de que o bichano necessita
+                    para sentir-se bem, tais como caixa sanitária, comedouro, bebedouro, brinquedos, caixas de papelão e
+                    arranhadores. </p>
+            </div>
+
+            <div class="texto">
+                <p>Além de fundamentais para eliminação e entretenimento, alguns desses recursos também têm um papel
+                    importante na marcação de território, contribuindo para que o gato encontrado e resgatado por você
+                    se sinta em casa mais rapidamente. </p>
+            </div>
+            <div class="texto">
+                <p>Portanto, ao escolher tocas e outros acessórios como cobertores, dê preferências àqueles que absorvem
+                    odores com facilidade. A ideia é que, quanto mais o gato puder sentir o próprio cheiro, mais à
+                    vontade ele ficará!</p>
+            </div>
+
+            <div class="img"><img src="img-blog/img26.jpg" alt=""></div>
+
+            <div class="subtitulo">
+                <h2>Espalhando os acessórios pela casa</h2>
+            </div>
+
+            <div class="texto">
+                <p>Aguarde até que o pet já esteja se sentindo plenamente à vontade no cômodo escolhido por você. Quando
+                    isso acontecer, comece a espalhar os acessórios com o cheirinho do pet pela casa. Isso ajuda a fazer
+                    com que o bichano se “reconheça” no restante do ambiente, sentindo-se em casa. </p>
+            </div>
+
+            <div class="texto">
+                <p>Lembrando que os recursos devem ser sempre setorizados e posicionados em locais estratégicos para
+                    cada um. Ou seja, nada de colocar a caixa sanitária ao lado de comedouro, bebedouro ou área de
+                    descanso! </p>
+            </div>
+
+            <div class="texto">
+                <p>Arranhadores devem ser colocados acima do chão e em locais de transição, tocas podem ficar em locais elevados (desde que seguros) para um maior controle do ambiente e assim por diante.  </p>
+            </div>
+
+            <div class="texto">
+                <p>Ao mesmo tempo, não deixe de colocar novos acessórios no cômodo inicial, para que o pet também possa
+                    deixar neles seu odor. </p>
+            </div>
+
+            <div class="subtitulo">
+                <h2>E a interação? Como lidar com o pet nos primeiros dias?</h2>
+            </div>
+
+            <div class="texto">
+                <p>Até aqui, falamos sobretudo a respeito de como preparar o ambiente e introduzir o bichano no novo
+                    lar. Mas e quanto à interação, como se aproximar aos poucos do gato resgatado de maneira positiva,
+                    tomando cuidado para não assustá-lo?</p>
+            </div>
+
+            <div class="texto">
+                <p>Em primeiro lugar, dê tempo ao tempo e evite pegar o pet no colo ou forçar qualquer tipo de carinho.
+                    Ao contrário, deixe-o à vontade no cômodo que você escolheu para ele, respeite seu espaço e utilize
+                    petiscos para atraí-lo até você. </p>
+            </div>
+
+            <div class="texto">
+                <p>Enquanto isso, vá conversando com ele para ele se acostumar com a sua voz. Aos pouquinhos, você vai
+                    ver como ele passará a se sentir mais confortável na sua presença. Nesse momento, já será possível
+                    interagir mais ativamente e brincar com o bichano, criando associações positivas que reforcem o
+                    vínculo entre vocês. </p>
+            </div>
+
+            <div class="img"><img src="img-blog/img6.jpg" alt=""></div>
+
+<div class="texto">
+    <a href="https://www.adotepetz.com.br/blog/gato-resgatado/
+    "><p>Fonte da notícia</p></a>
+    <p>E para aqueles que já possuem outro gatinho em casa, <a href="noticia9.html">confira aqui</a> no blog qual é a maneira recomendada de fazer a adaptação dos dois!</p>
+</div>
+
+        </div>
+        
+<div class="ads">
+
+    <h1>VEJA MAIS</h1>
+    
+        <br><br>
+    
+    <a href=""><img src="https://classic.exame.com/wp-content/uploads/2023/05/gripe_1.jpg?quality=70&strip=info&w=1024" alt=""></a>
+    
+    <a href="https://exame.com/agro/sp-registra-primeiro-foco-de-gripe-aviaria-em-aves-silvestres-total-no-brasil-sobe-para-24/" class="titulo-ads">SP registra primeiro foco de gripe aviária em aves silvestres; total no Brasil sobe para 24</a>
+    
+    <br><br>
+    
+    <a href="https://exame.com/ciencia/brasil-tem-mais-de-270-animais-exoticos-que-ameacam-biodiversidade/"><img src="https://classic.exame.com/wp-content/uploads/2023/03/img201701311611115827152-768x554-1.jpg?quality=70&strip=info&w=768" alt=""></a>
+    
+    <a href="https://exame.com/ciencia/brasil-tem-mais-de-270-animais-exoticos-que-ameacam-biodiversidade/" class="titulo-ads">Brasil tem mais de 270 animais exóticos que ameaçam biodiversidade</a>
+    
+    <br><br>
+    
+    <a href="https://exame.com/pop/chuva-de-vermes-na-china-o-que-explica-o-fenomeno-veja-videos/"><img src="https://classic.exame.com/wp-content/uploads/2023/03/larvas.png?w=793" alt=""></a>
+    
+    <a href="https://exame.com/pop/chuva-de-vermes-na-china-o-que-explica-o-fenomeno-veja-videos/" class="titulo-ads">"Chuva de vermes" na China: o que explica o fenômeno? Veja vídeos</a>
+    
+    </div>
+    </main>
+
+
+    <footer>
+        <a href="#"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+        
+        <div class="main-footer">
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"> Mapa do Site</span>
+            <a href="lista.html">Lista Completa</a>
+            <a href="blog.html">Blog</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo">Nossas Redes</span>
+            <div class="redes">
+              <a href="">  
+                <i class="fa-brands fa-instagram" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-facebook" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            </div>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+        </div>
+        
+        </div><!--/main-footer/-->
+        
+        <hr>
+        
+        <span class="direitos">© 2023  Infopets - Todos os Direitos Reservados</span>
+        
+        </footer>
+    
+
+    <!------CONTEUDO-----------CONTEUDO-------------CONTEUDO------------->
+</body>
+
+</html>

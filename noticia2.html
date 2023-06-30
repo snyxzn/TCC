@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="icon" href="img/iconetcc.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="noticias.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alimentação natural para cães</title>
+</head>
+
+<body>
+
+
+  <!-------------header-----\/----header---\/----header----\/-----header----\/----header-------\/-------->
+
+
+  <header>
+
+    <div class="container-header">
+
+     <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+
+      <a href="index.html" class="bottom-line">Inicio</a>
+      <a href="lista.html" class="bottom-line">Lista Completa</a>
+      <a href="blog.html" class="bottom-line">Blog</a>
+      <a href="equipe.html" class="bottom-line">Equipe</a>
+      <a href="http://localhost/rafaelv/cadastro/index.php" class="bottom-line">Cadastre sua ONG</a>
+
+      <div class="btn-container">
+        <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+      </div>
+      
+
+     <!--AUMENTAR E DIMINUIR FONTE--> 
+
+      <script>
+      
+      window.onload = function() {
+          var elementBody = document.querySelector('body');
+          var elementBtnIncreaseFont = document.getElementById('increase-font');
+          var elementBtnDecreaseFont = document.getElementById('decrease-font');
+          // Padrão de tamanho, equivale a 100% do valor definido no Body
+          var fontSize = 100;
+          // Valor de incremento ou decremento, equivale a 10% do valor do Body
+          var increaseDecrease = 10;
+      
+          // Evento de click para aumentar a fonte
+          elementBtnIncreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize + increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      
+          // Evento de click para diminuir a fonte
+          elementBtnDecreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize - increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      }
+      
+      </script>
+
+
+<!--DARK MODE-->
+
+    
+      <div class="toggle">
+        
+        
+        <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+        
+        <label class="toggle-label" for="myonoffswitch">
+            <span class="toggle-inner"></span>
+            <span class="toggle-switch"></span>
+        </label>
+    
+        
+
+    </div>
+
+
+  </div>
+
+  
+
+      <script>
+
+function dark_mode() {
+                var body = document.body;
+                body.classList.toggle("dark-mode");
+}
+
+      </script>
+
+
+
+
+    </div>
+
+  </header>
+
+
+  <!-------------header----/\-----header---/\----header----/\-----header----/\----header------/\--------->
+
+
+
+  <div class="container-inicial">
+
+    
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+    <div class="conteudo-inicial">
+
+      <a href="blog.html"><h3>Blog</h3></a>
+
+<br>
+
+<h1>Alimentação para cães</h1>
+
+<br>
+
+<div class="prox-ant">
+
+    <div class="seta">
+
+       <a href="noticia1.html"><i class="fa-solid fa-chevron-left"></i></a>
+
+    </div>
+
+
+<div class="ant">
+
+    <a href="noticia1.html">ANTERIOR</a>
+    <a href="noticia1.html"><p>Enriquecimento Ambiental</p></a>
+
+</div>
+
+
+
+<div class="prox">
+
+<a href="noticia3.html">PRÓXIMO</a>
+<a href="noticia3.html"><p>Benefícios de castração de gatos</p></a>
+
+
+</div>
+
+
+
+<div class="seta">
+
+    <a href="noticia3.html"><i class="fa-solid fa-chevron-right"></i></a>
+
+</div>
+
+</div>
+
+    </div>
+
+</div>
+
+  <main>
+
+    <div class="conteudo">
+     
+
+      <div class="img">
+        <img src="img-blog/img3.jpg" alt="">
+      </div>
+
+      <div class="texto">
+        <p>Cada vez mais buscada, a alimentação natural para cães tem despertado interesse de tutores que desejam que
+          seus
+          animais consumam menos alimentos industrializados. Isso porque, cada vez mais, procura-se dar algo mais
+          natural
+          e benéfico para a saúde dos pets.</p>
+      </div>
+
+      <div class="texto">
+        <p>Para melhor apresentar as possibilidades dessa proposta, listamos algumas informações sobre como inseri-la e
+          os
+          respectivos benefícios e pontos negativos da ingestão de alimentos mais saudáveis por cachorros. Confira tudo
+          sobre alimentação natural para cães! </p>
+      </div>
+
+      <div class="img">
+        <img src="img-blog/img13.webp" alt="">
+      </div>
+
+      <div class="subtitulo">
+        <h2>Opção natural e mais saudável</h2>
+      </div>
+
+      <div class="texto">
+        <p>Ainda que as rações sejam desenvolvidas para suprir todas as necessidades, alguns tutores vêm estudando
+          opções
+          livres de ultraprocessados para alimentar seus animais, embora não existam evidências científicas de que a
+          ração
+          traga malefício aos cães. </p>
+      </div>
+
+      <div class="texto">
+        <p>Além de carnes, verduras e legumes, outras opções podem ser incluídas na dieta do seu amigo peludo. Veja mais
+          neste artigo.</p>
+      </div>
+
+      <div class="subtitulo">
+        <h2>Produção caseira</h2>
+      </div>
+
+      <div class="texto">
+        <p>Por ser feito de forma caseira, a alimentação natural para pets oferece maior controle por parte dos tutores
+          em
+          relação ao que compõe a dieta de seu pet. </p>
+      </div>
+
+      <div class="texto">
+        <p>Podendo ser preparada conforme as necessidades da raça de seu cachorro, a alimentação saudável para cães
+          livra
+          o animal de possíveis riscos oferecidos por alimentos industrializados, fortalecendo sua saúde e,
+          consequentemente, sua dieta balanceada.</p>
+      </div>
+
+      <div class="subtitulo">
+        <h2>Visite o veterinário</h2>
+      </div>
+
+      <div class="texto">
+        <p>Alguns alimentos naturais para cães podem oferecer riscos ao pet. Por esse motivo, o mais indicado é que
+          antes
+          de iniciar o processo de introdução alimentar, seu companheiro de quatro patas seja levado ao veterinário para
+          que se prepare para a mudança na rotina.</p>
+      </div>
+
+      <div class="texto">
+        <p>Por conhecer as necessidades de seu amigo peludo, o médico-veterinário será capaz de recomendar receitas que
+          unam sabor inigualável, informação nutricional recomendada e alimentação balanceada.</p>
+      </div>
+
+      <div class="img">
+        <img src="img-blog/img14.jpg" alt="">
+      </div>
+
+      <div class="texto">
+        <p>Diferentemente da nossa comida, os cachorros não devem ingerir temperos como cebola, cebolinha, alho e
+          alho-poró. Por isso, nossa alimentação pode ser dividida com nosso pet. Diferentemente do que se pensa, os
+          cães
+          devem consumir sal. Em cães saudáveis, isso não está associado ao aumento da pressão, pelo contrário, se o
+          cachorro não comer sal, isso pode ter consequências negativas na saúde. </p>
+      </div>
+
+      <div class="texto">
+        <p>Para te ajudar nesse processo, você pode visitar uma de nossas clínicas Seres. Além de especialistas em
+          alimentação canina, com um profissional especializado, você poderá desenvolver uma dieta especial para seu
+          amigão, deixando-o mais forte e mais saudável.</p>
+      </div>
+
+      <div class="img">
+        <img src="img-blog/img15.webp" alt="">
+      </div>
+
+      <div class="subtitulo">
+        <h2>Principais vantagens da alimentação natural para cachorros</h2>
+      </div>
+
+      <div class="texto">
+        <p>Além da possibilidade de controlar melhor o que e como seu pet comerá, com a comida natural para cães,
+          tutores
+          de todo o país poderão produzir pratos naturais. </p>
+      </div>
+
+      <div class="texto">
+        <p>Outro benefício importante da alimentação natural para cães é que, ao cozinhar, além de preparar doses
+          ideais,
+          o tutor poderá controlar o que e como serão servidos os pratos de seu pet. </p>
+      </div>
+
+      <div class="texto">
+        <p>Como é sabido, alguns animais sofrem de obesidade por conta do consumo excessivo de calorias. Nesses casos, a
+          introdução de comida natural para cachorro com menos calorias, como chuchu e abobrinha, podem auxiliar na
+          regulação do organismo de seu pet e, consequentemente, em seu emagrecimento.</p>
+      </div>
+
+      <div class="texto">
+        <p>Ainda que fofos, assim como nós, nossos animais devem manter o peso ideal para que sua saúde fique livre de
+          riscos. Em uma dieta balanceada e natural, além de se alimentar melhor, seu pet terá mais chances de ficar
+          esbelto e com a saúde perfeita, comprovada por seu peso ideal.</p>
+      </div>
+
+      <div class="subtitulo">
+        <h2>Possíveis dificuldades encontradas para introdução da nova alimentação</h2>
+      </div>
+
+      <div class="texto">
+        <p>Como é sabido, por se tratar de um novo cardápio, em alguns casos, os tutores enfrentam dificuldades por
+          parte dos animais em aceitar os novos alimentos e a nova rotina.</p>
+      </div>
+
+      <div class="texto">
+        <p>Nesses casos, além de mesclar dois tipos, os tutores devem ser pacientes e persistentes quanto à alimentação.
+          No caso da não aceitação de algum dos itens, será necessária sua substituição por outro alimento, o que também
+          poderá demandar tempo e dedicação, porém, será benéfico a longo prazo.</p>
+      </div>
+
+      <div class="texto">
+        <p>Em relação a seu preparo, os pratos naturais precisam ser feitos com cautela, o que pode exigir tempo do
+          tutor. </p>
+      </div>
+
+      <div class="texto">
+        <p>Por conta desse e dos demais pontos, recomendamos novamente que, antes da sua introdução, veterinários sejam
+          consultados para auxiliar inclusive no processo de adaptação de responsáveis e cachorros. Assim como outras
+          mudanças, a alimentação também demanda tempo, que o tutor deverá ter disponível para o preparo e alimentação
+          diária de seu cachorro.</p>
+      </div>
+
+      <div class="texto">
+        <p>Não é possível fazer um cardápio em casa sem adição de suplemento, caso contrário, o animal pode ter
+          deficiências nutricionais graves que prejudiquem sua saúde. Por isso, é muito importante que o alimento
+          caseiro seja formulado com um nutricionista.</p>
+      </div>
+
+      <div class="texto">
+        <p>O custo da dieta caseira é muito maior que o da ração superpremium, ademais, se fornecida de maneira errada
+          (quantidades e sem suplementação), a dieta pode trazer malefícios à saúde do animal.</p>
+      </div>
+
+      <div class="subtitulo"><h2>alimentos possíveis</h2></div>
+
+      <div class="texto">
+        <p>Apesar de precisarem ser servidos conforme receitado pelo veterinário, alguns alimentos são de liberação total e comprovadamente benéficos para nossos bichos. Entre eles:</p>
+      </div>
+
+      <div class="lista">
+        <ul>
+          <li>abóbora, espinafre, inhame e mandioquinha;</li>
+
+          <li>vagem, batata e repolho; </li>
+
+          <li>cenoura, chuchu, couve, abobrinha e couve-flor;</li>
+
+         <li> banana, melancia, melão e manga;</li>
+        </ul>
+        
+      </div>
+
+      <div class="img">
+        <img src="img-blog/img16.jpg" alt="">
+      </div>
+
+      <div class="texto">
+        <p>Com relação ao consumo de carnes, a lista de produtos liberados será conforme a raça e o porte de seu cachorro. Por esse motivo, novamente recomendamos que médicos-veterinários sejam consultados, garantindo, assim, que o parceiro canino se alimente corretamente e não corra quaisquer riscos.</p>
+      </div>
+
+      <div class="texto">
+        <p>Siga conosco para facilitar o processo de inserção e desenvolvimento da alimentação natural de seu cachorro! Conforme exposto, fica evidente que além de benéfica, a alimentação natural de cachorros garante benefícios tanto para você, tutor, quanto para seu parceiro de quatro patas.</p>
+      </div>
+
+      <div class="texto">
+        <p>Para saber mais sobre o assunto ou ficar por dentro de dicas para inserir a alimentação saudável na rotina de seu pet, acompanhe nosso blog. </p>
+      </div>
+
+      <div class="img">
+        <img src="img-blog/img3.jpg" alt="">
+      </div>
+
+      <div class="texto">
+        <p>Agora você está ciente de tudo sobre alimentação natural para cães. Por termos como compromisso garantir o melhor para seu pet, diariamente, você encontrará novas notícias e postagens de seu interesse para tornar a vida de seu pet melhor e mais saudável aqui, no blog da <a href="index.html"> Infopets.</a></p>
+        <a href="https://www.adotepetz.com.br/blog/alimentacao-natural-para-caes-saiba-mais-sobre-a-opcao-e-veja-o-que-oferecer-a-seu-cachorro/"><p>Fonte da notícia</p></a>
+      </div>
+
+
+    </div>
+    
+  
+
+<div class="ads">
+
+  <h1>VEJA MAIS</h1>
+  
+      <br><br>
+  
+
+  
+      <a href="https://veja.abril.com.br/saude/aplicativo-gratuito-ajuda-a-medir-nivel-de-dor-e-mal-estar-dos-animais/"><img src="https://animalclinic.com.br/site/wp-content/uploads/2015/07/Cachorro-doente.jpg" alt="" class="imgt"></a>
+
+  <a href="https://veja.abril.com.br/saude/aplicativo-gratuito-ajuda-a-medir-nivel-de-dor-e-mal-estar-dos-animais/" class="titulo-ads">Aplicativo gratuito ajuda a medir nível de dor e mal-estar dos animais.</a>
+  
+  <br><br>
+  
+  <a href="https://veja.abril.com.br/coluna/cannabiz/congresso-brasileiro-discute-uso-da-cannabis-no-tratamento-de-animais/"><img src="https://veja.abril.com.br/wp-content/uploads/2022/07/GettyImages-1200346292.jpg?quality=90&strip=info&w=1280&h=720&crop=1" alt=""></a>
+  
+  <a href="https://veja.abril.com.br/coluna/cannabiz/congresso-brasileiro-discute-uso-da-cannabis-no-tratamento-de-animais/" class="titulo-ads">Congresso brasileiro discute uso da cannabis no tratamento de animais.</a>
+  
+  <br><br>
+  
+  <a href="https://veja.abril.com.br/ciencia/uma-dor-animal-luto-dos-bichos-e-desvendado-por-novo-conjunto-de-estudos/"><img src="https://veja.abril.com.br/wp-content/uploads/2023/05/GettyImages-157382116.jpg.jpg?quality=90&strip=info&w=1280&h=720&crop=1" alt=""></a>
+  
+  <a href="https://veja.abril.com.br/ciencia/uma-dor-animal-luto-dos-bichos-e-desvendado-por-novo-conjunto-de-estudos/" class="titulo-ads">Uma dor animal: luto dos bichos é desvendado por novo conjunto de estudos.</a>
+  
+  </div>
+  </main>
+
+
+  <!-------footer------\/----footer-----\/-----footer-------\/----footer-----\/----footer--------\/-------->
+
+  <footer>
+    <a href="#"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+    
+    <div class="main-footer">
+    
+    <div class="artigo-footer">
+        <span class="footer-titulo"> Mapa do Site</span>
+        <a href="lista.html">Lista Completa</a>
+        <a href="blog.html">Blog</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+    </div>
+    
+    <div class="artigo-footer">
+        <span class="footer-titulo">Nossas Redes</span>
+        <div class="redes">
+          <a href="">  
+            <i class="fa-brands fa-instagram" ></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-square-facebook" ></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        </div>
+    </div>
+    
+    <div class="artigo-footer">
+      <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+    </div>
+    
+    </div><!--/main-footer/-->
+    
+    <hr>
+    
+    <span class="direitos">© 2023  Infopets - Todos os Direitos Reservados</span>
+    
+    </footer>
+
+
+
+  <!-------footer-----/\-----footer-----/\-----footer-----/\------footer----/\-----footer-------\/--------->
+
+
+
+</body>
+
+</html>

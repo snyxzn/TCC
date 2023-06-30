@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="regiaon.css">
+    <link rel="icon" href="img/iconetcc.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Região Nordeste</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="container-header">
+    
+            <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+    
+          <a href="index.html" class="bottom-line">Inicio</a>
+          <a href="lista.html" class="bottom-line">Lista Completa</a>
+          <a href="blog.html" class="bottom-line">Blog</a>
+          <a href="equipe.html" class="bottom-line">Equipe</a>
+          <a href="http://localhost/rafaelv/cadastro/index.php" class="bottom-line">Cadastre sua ONG</a>
+    
+          <div class="btn-container">
+            <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+          </div>
+          
+    
+         <!--AUMENTAR E DIMINUIR FONTE--> 
+    
+          <script>
+          
+          window.onload = function() {
+              var elementBody = document.querySelector('body');
+              var elementBtnIncreaseFont = document.getElementById('increase-font');
+              var elementBtnDecreaseFont = document.getElementById('decrease-font');
+              // Padrão de tamanho, equivale a 100% do valor definido no Body
+              var fontSize = 100;
+              // Valor de incremento ou decremento, equivale a 10% do valor do Body
+              var increaseDecrease = 10;
+          
+              // Evento de click para aumentar a fonte
+              elementBtnIncreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize + increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          
+              // Evento de click para diminuir a fonte
+              elementBtnDecreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize - increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          }
+          
+          </script>
+    
+    
+    <!--DARK MODE-->
+    
+        
+          <div class="toggle">
+            
+            
+            <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+            
+            <label class="toggle-label" for="myonoffswitch">
+                <span class="toggle-inner"></span>
+                <span class="toggle-switch"></span>
+            </label>
+        
+            
+    
+        </div>
+    
+    
+      </div>
+    
+      
+    
+          <script>
+    
+    function dark_mode() {
+                    var body = document.body;
+                    body.classList.toggle("dark-mode");
+    }
+    
+          </script>
+    
+    
+    
+    
+        </div>
+    
+      </header>
+   
+
+
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+    
+    
+    
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+<center>
+
+        <div class="corpo">
+            <h1>Região Nordeste</h1>
+
+            <div class="container">
+                <div class="item">
+                    <div class="imagem21"><h3> AMADA</h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            
+                            <span>Contatos:
+                                amada.sl@gmail.com </span>
+                            <p>Descrição:  Resultado da união de esforços de voluntários simpatizantes a causa para ajudar os animais, são pessoas unidas em nome deles, tudo que fazem é por conta própria e por amor.
+                                Cada animal adotado é uma vitória para eles e isso nos dá força para continuarem lutando e aos poucos vão conseguindo auxílio para levar o projeto pra frente. 
+                            </p>
+                        </div>
+                        <a href="https://adotar.com.br/instituicao.aspx?cod=5191" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="item">
+                    <div class="imagem22"><h3>Apipa</h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            
+                            <span>Contatos:apipa@gmail.com</span>
+                            <p>Descrição: A Associação Piauiense de Proteção e Amor aos Animais:  A APIPA é organização jurídica que foi fundada em 10 de dezembro de 2007, seu principal objetivo é promovemos campanhas educativas visando a conscientização da sociedade quanto aos direitos dos animais. Eles agem a partir de doações de rações, materiais de limpeza, jornais, medicamentos e ajuda financeira através dos canais de doação, a organização também pede ajuda de voluntários para atuar na manutenção dos estabelecimentos.</p>
+                        </div>
+                        <a href="https://www.apipapiaui.org/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="item">
+                    <div class="imagem23"> <h3>FRATERNIDADE PET</h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                           
+                            <span>Contatos:  79-98823-3733</span>
+                            <p>Descrição: A Solidários SE é uma rede que divulga projetos sociais sem nenhum fim lucrativo. Foi criada durante a Pandemia do Covid-19 (Corona-Vírus) por Paulo Miranda (Desenvolvedor) e Fabiana Droppa (Designer Gráfico). O seu principal foco é a busca de informações, conectar pessoas e conscientiza-las dos maus-tratos sofridos pelos animais.</p>
+                        </div>
+                        <a href="https://solidarios-se.com/projeto-social/fraternidade-pet/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="item">
+                    <div class="imagem24">  <h3>ELAN</h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                          
+                            <span>Contatos:falecomagente@solidarios-se.com</span>
+                            <p>Descrição: ONG que nasceu da iniciativa de Nazaré Moraes em lutar pelos direitos dos animais de forma legalizada e organizada.
+                                Em 18 de setembro de 2012, houve a reunião para sua fundação e, por fim, em 28 de setembro de 2012, nasceu oficialmente a ELAN.
+                                É, até hoje, a única que luta por políticas públicas e no combate ao crime contra animais no estado de Sergipe.Atua educando, combatendo crimes, providenciando que as leis sejam aplicadas e/ou que passem a existir.</p>
+                        </div>
+                        <a href="https://solidarios-se.com/projeto-social/elan-educacao-e-legislacao-animal/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div class="item">
+                    <div class="imagem25"> <h3>Abrigo Mossoro </h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                           
+                            <span>Contatos: abrigo.mossoro@gmail.com</span>
+                            <p>Descrição:  O Abrigo Mossoró funciona como Lar Temporário de cães e gatos resgatados das ruas em situação de risco, mediante dos maus-tratos sofrido por pelos animais por causas das pessoas.
+                            </p>
+                        </div>
+                        <a href="https://www.instagram.com/abrigomossoro/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </center>
+    <!-- setas -->
+    <div class="prox-ant">
+
+        <div class="seta">
+    
+           <a href="noticia7.html"><i class="fa-solid fa-chevron-left"></i></a>
+    
+        </div>
+    
+    
+    <div class="ant">
+    
+        <a href="regiaon.html">NORTE</a>
+    
+    </div>
+    
+    
+    
+    <div class="prox">
+    
+    <a href="regiaoo.html">CENTRO OESTE</a>
+    
+    
+    </div>
+    
+    
+    
+    <div class="seta">
+    
+        <a href="regiaoo.html"><i class="fa-solid fa-chevron-right"></i></a>
+    
+    </div>
+    
+    </div>
+    
+        </div>
+    
+    </div>
+    <footer>
+        <a href="#">
+            <div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span>
+            </div>
+        </a>
+
+        <div class="main-footer">
+
+            <div class="artigo-footer">
+                <span class="footer-titulo"> Mapa do Site</span>
+                <a href="lista.html">Lista Completa</a>
+                <a href="blog.html">Blog</a>
+                <a href="equipe.html">Equipe</a>
+                <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+            </div>
+
+            <div class="artigo-footer">
+                <span class="footer-titulo">Nossas Redes</span>
+                <div class="redes">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="artigo-footer">
+                <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+            </div>
+
+        </div><!--/*main-footer*/-->
+
+        <hr>
+
+        <span class="direitos">© 2023 Infopets - Seu agregador de ONGS, todos os direitos reservados</span>
+
+    </footer>
+
+
+
+    <script>
+        AOS.init();
+    </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

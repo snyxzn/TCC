@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="icon" href="img/iconetcc.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info Pets</title>
+</head>
+
+<body>
+
+  <header id="topo-site">
+
+    <div class="container-header">
+
+      <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+
+
+      
+      <a href="#cards" class="bottom-line">Missão</a>
+      <a href="lista.html" class="bottom-line">Lista Completa</a>
+      <a href="blog.html" class="bottom-line">Blog</a>
+      <a href="equipe.html" class="bottom-line">Equipe</a>
+      <a href="404.html" class="bottom-line">Cadastre sua ONG</a>
+
+      <div class="btn-container">
+        <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+      </div>
+
+
+      <!--AUMENTAR E DIMINUIR FONTE-->
+
+      <script>
+
+        window.onload = function () {
+          var elementBody = document.querySelector('body');
+          var elementBtnIncreaseFont = document.getElementById('increase-font');
+          var elementBtnDecreaseFont = document.getElementById('decrease-font');
+          // Padrão de tamanho, equivale a 100% do valor definido no Body
+          var fontSize = 100;
+          // Valor de incremento ou decremento, equivale a 10% do valor do Body
+          var increaseDecrease = 10;
+
+          // Evento de click para aumentar a fonte
+          elementBtnIncreaseFont.addEventListener('click', function (event) {
+            fontSize = fontSize + increaseDecrease;
+            elementBody.style.fontSize = fontSize + '%';
+          });
+
+          // Evento de click para diminuir a fonte
+          elementBtnDecreaseFont.addEventListener('click', function (event) {
+            fontSize = fontSize - increaseDecrease;
+            elementBody.style.fontSize = fontSize + '%';
+          });
+        }
+
+      </script>
+
+
+      <!--DARK MODE-->
+
+
+      <div class="toggle">
+
+
+        <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0"
+          onclick="dark_mode()">
+
+        <label class="toggle-label" for="myonoffswitch">
+          <span class="toggle-inner"></span>
+          <span class="toggle-switch"></span>
+        </label>
+
+
+
+      </div>
+
+
+    </div>
+
+
+
+    <script>
+
+      function dark_mode() {
+        var body = document.body;
+        body.classList.toggle("dark-mode");
+      }
+
+    </script>
+
+
+
+
+    </div>
+
+  </header>
+
+  
+  <!--PLUGIN LIBRAS-->
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+
+
+  <main class="container-1">
+
+    <section class="text-container-1">
+
+      <span>Adote
+        <br> O amor não tem preço, nem raça.</span>
+
+    </section>
+
+    <section class="text-container-2">
+
+      <span>Respeitar os animais é um dever de todos</span>
+
+    </section>
+
+    <main class="container-second-block">
+
+
+      <!--CONTADOR-->
+
+      <div class="section-numbers-block">
+
+        <div class="counter">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <div class="count-up">
+                  <p class="counter-count">184960</p>
+                  <h3>Animais Resgatados</h3>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <div class="count-up">
+                  <p class="counter-count">66324</p>
+                  <h3 class="slvs">Animais Salvos</h3>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-3">
+                <div class="count-up">
+                  <p class="counter-count">400</p>
+                  <h3>ONGS Cadastradas</h3>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+
+        $('.counter-count').each(function () {
+          $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+          }, {
+
+
+            duration: 9999,
+            easing: 'swing',
+            step: function (now) {
+              $(this).text(Math.ceil(now));
+            }
+          });
+        });
+
+      </script>
+
+
+
+      </div>
+
+    </main>
+
+  </main>
+
+
+
+  <main class="container-first-block" id="cards">
+
+    <h1 class="title-first-block">O que fazemos</h1>
+
+    <br><br>
+
+    <div class="container-cards-first-block">
+
+      <div class="card" data-aos="fade-up">
+        <img src="img/oquefazemos01.png" alt="">
+        <h2>Conectar</h2>
+        <div class="cont">
+            <p>Procuramos por todo o Brasil por ONGs de resgate animal, com o intuito de mostrar que sempre há alguma instituição como essas perto de você. Nosso principal objetivo é a divulgação para que possamos apresenta-las para o público e nunca os deixar de fora do que acontece.
+            </p>
+        
+        </div>
+    </div>
+
+    
+    <div class="card" data-aos="fade-up">
+      <img src="img/oquefazemos02.png" alt="">
+      <h2>Agregar</h2>
+      <div class="cont">
+          <p>Reunimos todo esse conteúdo em um lugar só, para que a visualização seja acessível. Além de contar com o apoio da comunidade em indicar novas ONGs que possam ser adicionadas ao nosso site.
+          </p>
+         
+      </div>
+  </div>
+
+
+  
+  <div class="card" data-aos="fade-up">
+    <img src="img/oquefazemos03.png" alt="">
+    <h2>Conscientizar</h2>
+    <div class="cont">
+        <p>Queremos mostrar que existe muita seriedade e respeito nas ONGs que se dedicam aos cuidados com animais e que existem muitas pessoas que trabalam em prol desse intuito.
+        </p>
+       
+    </div>
+</div>
+
+
+
+<div class="card" data-aos="fade-up">
+  <img src="img/oquefazemos04.png" alt="">
+  <h2>Apoiar</h2>
+  <div class="cont">
+      <p>Nosso foco é a causa animal, pensando sempre em como achar um jeito de apoia-la, trazendo notícias, curiosidades e demais informações extras em nosso Blog.
+      </p>
+    
+  </div>
+</div>
+
+    </div>
+
+    </div>
+
+  </main>
+
+  <main class="container-nathan">
+
+
+
+<div class="mvv-1">
+
+<div class="mvv" data-aos="fade-left">
+  <img src="img/missao.png" alt="missão">
+  <br>
+  <p>O Info-Pets é uma agregadora das ONG's de resgate animal sem fins lucrativos. Somos divulgadores dessas instituições que ajudam animais abandonados e vítimas de maus-tratos. Nós ajudamos na luta a favor dos animais de rua que tenham uma vida com respeito e amor.</p>
+</div>
+
+
+
+<div class="mvv-3" data-aos="fade-left" data-aos-duration="500">
+  
+  <img src="img/valores.png" alt="missão">
+  <br>
+  <ul>
+    <li>Divulgação</li>
+    <li>Conscientização</li>
+    <li>Respeito</li>
+    <li>Autenticidade</li>
+  </ul>
+</div>
+
+
+
+<div class="mvv-inverso" data-aos="fade-left" data-aos-duration="500">
+
+  <img src="img/visao.png" alt="missão">
+  <br>
+  <p>A visão do Info-Pets é que todos os animais merecem carinho e respeito, por isso que ajudamos na divulgação dessas ONG's para que as pessoas tenham essa conscientização sobre as maldades que os animais sofrem. Mostramos que sempre tem uma ONG perto de você.</p>
+
+</div>
+
+
+</div>
+
+  </main>
+
+
+  <main class="container-third-block">
+
+    <h1 class="title-third-block">Zonas</h1>
+
+    <div class="container-cards-third-block">
+
+      <div class="img-hover">
+
+        <a href="regiaon.html"><img src="img/regioesicones (4).png" alt="" data-aos="fade-right" data-aos-duration="500"></a>
+
+      </div>
+
+      <div class="img-hover">
+
+        <a href="regiaone.html"><img src="img/regioesicones (3).png" alt="" data-aos="fade-right" data-aos-duration="500"></a>
+
+      </div>
+
+      <div class="img-hover">
+
+        <a href="regiaoo.html"><img src="img/regioesicones (2).png" alt="" data-aos="fade-right" data-aos-duration="500"></a>
+
+      </div>
+
+      <div class="img-hover">
+
+        <a href="regiaoss.html"><img src="img/regioesicones (1).png" alt="" data-aos="fade-right" data-aos-duration="500"></a>
+
+      </div>
+
+
+      <div class="img-hover">
+
+
+        <a href="regiaos.html"><img src="img/regioesicones.png" alt="" data-aos="fade-right" data-aos-duration="500"></a>
+
+      </div>
+
+
+
+
+    </div>
+
+    <center>
+      <div class="stage2">
+        <a href="lista.html">Ver Todas ONGS</a>
+        </div>
+     </center>
+<br>
+  </main>
+
+
+
+  <footer>
+    <a href="#">
+      <div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div>
+    </a>
+
+    <div class="main-footer">
+
+      <div class="artigo-footer">
+        <span class="footer-titulo"> Mapa do Site</span>
+        <a href="lista.html">Lista Completa</a>
+        <a href="blog.html">Blog</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+      </div>
+
+      <div class="artigo-footer">
+        <span class="footer-titulo">Nossas Redes</span>
+        <div class="redes">
+          <a href="">
+            <i class="fa-brands fab fa-instagram	"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-square-facebook"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="artigo-footer">
+        <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+      </div>
+
+    </div><!--/main-footer/-->
+
+    <hr>
+
+    <span class="direitos">© 2023 Infopets - Todos os Direitos Reservados</span>
+
+  </footer>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+
+
+
+
+</body>
+
+</html>

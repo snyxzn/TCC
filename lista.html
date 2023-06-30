@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" href="img/iconetcc.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="lista.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Completa - Info Pets</title>
+</head>
+
+<body>
+    <header id="topo-site">
+
+        <div class="container-header">
+    
+        <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+    
+          <a href="index.html" class="bottom-line">Inicio</a>
+          <a href="lista.html" class="bottom-line">Lista Completa</a>
+          <a href="blog.html" class="bottom-line">Blog</a>
+          <a href="equipe.html" class="bottom-line">Equipe</a>
+          <a href="404.html" class="bottom-line">Cadastre sua ONG</a>
+    
+          <div class="btn-container">
+            <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+          </div>
+          
+    
+         <!--AUMENTAR E DIMINUIR FONTE--> 
+    
+          <script>
+          
+          window.onload = function() {
+              var elementBody = document.querySelector('body');
+              var elementBtnIncreaseFont = document.getElementById('increase-font');
+              var elementBtnDecreaseFont = document.getElementById('decrease-font');
+              // Padrão de tamanho, equivale a 100% do valor definido no Body
+              var fontSize = 100;
+              // Valor de incremento ou decremento, equivale a 10% do valor do Body
+              var increaseDecrease = 10;
+          
+              // Evento de click para aumentar a fonte
+              elementBtnIncreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize + increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          
+              // Evento de click para diminuir a fonte
+              elementBtnDecreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize - increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          }
+          
+          </script>
+    
+    
+    <!--DARK MODE-->
+    
+        
+          <div class="toggle">
+            
+            
+            <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+            
+            <label class="toggle-label" for="myonoffswitch">
+                <span class="toggle-inner"></span>
+                <span class="toggle-switch"></span>
+            </label>
+        
+            
+    
+        </div>
+    
+    
+      </div>
+    
+      
+    
+          <script>
+    
+    function dark_mode() {
+                    var body = document.body;
+                    body.classList.toggle("dark-mode");
+    }
+    
+          </script>
+    
+    
+    
+    
+        </div>
+    
+      </header>
+
+
+
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+    
+    
+    
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+
+    <center>
+        <h1 class="titulo-1">Lista ONGS</h1>
+
+ <h2 class="titulo-2">Região Sul</h2>
+<br>
+        <div class="corpo">
+    
+    
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem14">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>Pets Sem Fronteiras.</h3>
+                            <span>contato@petssemfronteiras.org.br
+                            </span>
+                        </div>
+                        <a href="http://petssemfronteiras.org.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem15">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3> Rede de Proteção Animal</h3>
+                            <span>(41) 3249-6130
+                            </span>
+                        </div>
+                        <a href="https://protecaoanimal.curitiba.pr.gov.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem11">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>Beto Salva-Cão</h3>
+                            <span> (51) 98407-4420 </span>
+                        </div>
+                        <a href="https://betosalvacao.org/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem12">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>ARPA-RS</h3>
+                            <span>
+                                (51) 3223-1914 </span>
+                        </div>
+                        <a href="https://arpa-rs.blogspot.com/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem13">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>Arca do José</h3>
+                            <span>LIGAR AGORA
+                                (51) 99918-9241 </span>
+                        </div>
+                        <a href="https://arca-do-jose.negocio.site/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+    
+</div>
+            <h2 class="titulo-2">Região Sudeste</h2>
+            <br>
+<div class="corpo">
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem16">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3> Animais Carentes Es</h3>
+                            <span>animaiscarenteses@gmail.com</span>
+
+                        </div>
+                        <a href="https://www.instagram.com/animaiscarenteses/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem17">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>projeto cãomer </h3>
+                            <span>(31) 9 9492-6049 </span>
+
+                        </div>
+                        <a href="http://projetocaomer.com.br/index.php" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem18">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3> ONG Indefesos </h3>
+                            <span>
+                                E-mail: ong.indefesos@gmail.com</span>
+                        </div>
+                        <a href="https://www.osindefesos.com.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem19">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>ong sos cidadania animal </h3>
+                            <span>
+                                ongsoscidadaniaanimal@uol.com.br</span>
+                        </div>
+                        <a href="https://ongsoscidadaniaanimal.org/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem20">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>UIPA</h3>
+                            <span> Email:uipasp@uol.com.br </span>
+
+
+                        </div>
+                        <a href="http://www.uipa.org.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            </div>
+            <h2 class="titulo-2">Região Centro oeste</h2>
+            <br>
+<div class="corpo">
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem6">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>apammt</h3>
+                            <span>apammt@gmail.com</span>
+                        </div>
+                        <a href="https://apammt.wordpress.com/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem7">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>ProAnima </h3>
+                            <span>proanima@proanima.org.br</span>
+                        </div>
+                        <a href="http://www.proanima.org.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem8">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>clube do gato </h3>
+                            <span>@clubedogato.org.br</span>
+                        </div>
+                        <a href=" https://clubedogato.org.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem9">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3> ASPAAN</h3>
+                            <span>contato@aspaan.org.br</span>
+                        </div>
+                        <a href=" http://www.aspaan.org.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem10">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3> Abrigo dos bichos </h3>
+                            <span>abrigodosbichos@abrigodosbichos.com.br</span>
+                        </div>
+                        <a href=" https://abrigodosbichos.com.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+</div>
+            <h2 class="titulo-2">Região Norte</h2><br>
+            <div class="corpo">
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem1">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>Amigos de São Francisco: ONG</h3>
+                            <span>voluntarios@amigosdesaofrancisco.com.br</span>
+                        </div>
+                        <a href="//amigosdesaofrancisco.com.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem2">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>APAMA ONG</h3>
+                            <span>(94) 99135-2100</span>
+                        </div>
+                        <a href="https://www.apamaong.org/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem3">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>ampara animal</h3>
+                            <span>@amparanimal.org.br</span>
+                        </div>
+                        <a href="https://amparanimal.org.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem4">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>Anjos protetores</h3>
+                            <span>anjosprotetoresong@gmail.com</span>
+                        </div>
+                        <a href="https://www.anjosprotetoresong.com/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem5">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>Meu Pet Amoroso</h3>
+                            <span> faleconosco@meupetamoroso.com.br</span>
+                        </div>
+                        <a href="https://www.meupetamoroso.com.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+ </div>
+        
+
+            <h2 class="titulo-2">Região nordeste</h2><br>
+            <div class="corpo">
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem21">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>AMADA</h3>
+                            <span>
+                                amada.sl@gmail.com </span>
+                        </div>
+                        <a href="https://adotar.com.br/instituicao.aspx?cod=5191" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem22">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>Apipa</h3>
+                            <span>apipa@gmail.com</span>
+
+
+                        </div>
+                        <a href="https://www.apipapiaui.org/" class="botao">Clique Aqui</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem23">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>FRATERNIDADE PET</h3>
+                            <span> 79-98823-3733 </span>
+                        </div>
+                        <a href="https://solidarios-se.com/projeto-social/fraternidade-pet/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem24">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>ELAN</h3>
+                            <span>falecomagente@solidarios-se.com</span>
+                        </div>
+                        <a href="https://solidarios-se.com/projeto-social/elan-educacao-e-legislacao-animal/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+            <div class="container-lista">
+                <div class="item">
+                    <div class="imagem25">
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            <h3>Abrigo Mossoro</h3>
+                            <span> abrigo.mossoro@gmail.com</span>
+
+
+                        </div>
+                        <a href="https://www.instagram.com/abrigomossoro/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </center>
+    <footer>
+        <a href="#topo-site">
+            <div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span>
+            </div>
+        </a>
+
+        <div class="main-footer">
+
+            <div class="artigo-footer">
+                <span class="footer-titulo"> Mapa do Site</span>
+                <a >Lista Completa</a>
+        <a href="blog.html">Blog</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+            </div>
+
+            <div class="artigo-footer">
+                <span class="footer-titulo">Nossas Redes</span>
+                <div class="redes">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-square-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="artigo-footer">
+                <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+            </div>
+
+        </div><!--/*main-footer*/-->
+
+        <hr>
+
+        <span class="direitos">© 2023 Infopets - Seu agregador de ONGS, todos os direitos reservados</span>
+
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        AOS.init();
+      </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="icon" href="img/iconetcc.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="noticias.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enriquecimento Ambiental</title>
+</head>
+
+<body>
+
+
+     <!-------------header-----\/----header---\/----header----\/-----header----\/----header-------\/-------->
+
+
+     <header>
+
+        <div class="container-header">
+    
+         <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+    
+          <a href="index.html" class="bottom-line">Inicio</a>
+          <a href="lista.html" class="bottom-line">Lista Completa</a>
+          <a href="blog.html" class="bottom-line">Blog</a>
+          <a href="equipe.html" class="bottom-line">Equipe</a>
+          <a href="http://localhost/rafaelv/cadastro/index.php" class="bottom-line">Cadastre sua ONG</a>
+    
+          <div class="btn-container">
+            <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+          </div>
+          
+    
+         <!--AUMENTAR E DIMINUIR FONTE--> 
+    
+          <script>
+          
+          window.onload = function() {
+              var elementBody = document.querySelector('body');
+              var elementBtnIncreaseFont = document.getElementById('increase-font');
+              var elementBtnDecreaseFont = document.getElementById('decrease-font');
+              // Padrão de tamanho, equivale a 100% do valor definido no Body
+              var fontSize = 100;
+              // Valor de incremento ou decremento, equivale a 10% do valor do Body
+              var increaseDecrease = 10;
+          
+              // Evento de click para aumentar a fonte
+              elementBtnIncreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize + increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          
+              // Evento de click para diminuir a fonte
+              elementBtnDecreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize - increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          }
+          
+          </script>
+    
+    
+    <!--DARK MODE-->
+    
+        
+          <div class="toggle">
+            
+            
+            <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+            
+            <label class="toggle-label" for="myonoffswitch">
+                <span class="toggle-inner"></span>
+                <span class="toggle-switch"></span>
+            </label>
+        
+            
+    
+        </div>
+    
+    
+      </div>
+    
+      
+    
+          <script>
+    
+    function dark_mode() {
+                    var body = document.body;
+                    body.classList.toggle("dark-mode");
+    }
+    
+          </script>
+    
+    
+    
+    
+        </div>
+    
+      </header>
+
+
+  <!-------------header----/\-----header---/\----header----/\-----header----/\----header------/\--------->
+
+
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+<div class="container-inicial">
+
+    <div class="conteudo-inicial">
+
+
+
+<a href="blog.html"><h3>Blog</h3></a>
+
+<br>
+
+<h1>Enriquecimento Ambiental</h1>
+
+<br>
+
+<div class="prox-ant">
+
+<div class="prox">
+
+<a href="noticia2.html">PRÓXIMO</a>
+<a href="noticia2.html"><p>Alimentação natural para cães</p></a>
+
+
+</div>
+
+
+
+<div class="seta">
+
+    <a href="noticia2.html"><i class="fa-solid fa-chevron-right"></i></a>
+
+</div>
+
+</div>
+
+    </div>
+
+</div>
+
+    <main>
+
+        <div class="conteudo">
+
+            <br>
+
+            <div class="img"><img src="img-blog/img1.jpg" alt=""></div>
+
+            <div class="texto">
+                <p>Aparentemente menos ativos que os cães, os gatos são muito enérgicos na natureza. Por isso, precisam
+                    ser
+                    estimulados com atividades que resgatem os instintos naturais, como é feito por meio do
+                    enriquecimento
+                    ambiental para gatos.</p>
+            </div>
+
+
+            <div class="texto">
+                <p>Além de brinquedos, outros itens podem ser dispostos em sua casa para tornar o ambiente mais
+                    cat-friendly
+                    e saudável para seu gato. Assim como os demais pets, ele precisa de estímulos. A seguir, confira
+                    como
+                    promover o enriquecimento ambiental felino da melhor forma possível! </p>
+            </div>
+
+            <div class="img"><img src="img-blog/img2.webp" alt=""></div>
+
+            <div class="texto">
+                <p>Extremamente ativos quando filhotes, os bichanos gostam de carinho, de atenção e, principalmente, de
+                    brincar. No entanto, até mesmo gatos mais velhos podem se beneficiar com itens de enriquecimento
+                    ambiental que sirvam para estimulá-los, exercitá-los e entretê-los, além de minimizar o estresse.
+                </p>
+            </div>
+
+            <div class="texto">
+                <p>
+                    Entre brinquedos, nichos fixos, arranhadores e diversos outros itens, nós, do Adote Petz, indicamos
+                    sempre que o espaço destinado a seu felino seja interativo, tornando a vida do bichano e do tutor
+                    ainda mais alegre, e o convívio, mais prazeroso.
+                </p>
+
+            </div>
+
+            <div class="subtitulo">
+                <h2>Iniciando o processo de enriquecer o ambiente para os gatos </h2>
+            </div>
+
+            <div class="texto">
+                <p>Apresentada a proposta, é hora de pensar no enriquecimento ambiental para gatos. Para isso, listamos
+                    alguns itens e acessórios que tendem a tornar sua casa mais interessante para o peludo. </p>
+            </div>
+
+            <div class="subtitulo">
+                <h2>Plataformas e nichos fixos</h2>
+            </div>
+
+            <div class="texto">
+                <p>Caso seja possível, uma das dicas mais viáveis é que nichos e plataformas sejam instalados no
+                    ambiente. Neles, os gatos podem subir, pular, observar tudo do alto, procurar comida previamente
+                    espalhada por você e se entreter sozinhos ou na companhia de outros bichanos. </p>
+            </div>
+
+            <div class="texto">
+                <p>
+                    Indicamos que esse circuito seja composto por oito a dez plataformas, para que os gatos possam se
+                    divertir e se exercitar. Por serem fixos, é uma ótima ideia de enriquecimento ambiental para gatos
+                    em apartamento.
+                </p>
+            </div>
+
+            <div class="subtitulo">
+                <h2>Arranhadores</h2>
+            </div>
+
+            <div class="texto">
+                <p>Extremamente importantes, os arranhadores são ótimos itens de enriquecimento vertical para gatos.
+                    Eles servem para que o animal desestresse, afie suas garras (visto que, ainda que sejam fofos,
+                    estamos tratando de felinos que possuem instinto de caçadores), se alonguem, marquem território e se
+                    exercitem. </p>
+            </div>
+
+            <div class="texto">
+                <p>“Estudos científicos mostram que os gatos preferem arranhadores mais altos (com, no mínimo, 1 m) e,
+                    de preferência, fixos ou mais estáveis. Contudo, os modelos soltos e menores também podem agradar”,
+                    explica Alexandre Rossi (Dr. Pet), parceiro Petz, autor do livro “O segredo dos gatos” e criador do
+                    curso on-line “Como cuidar de gatos”. </p>
+            </div>
+
+            <div class="texto">
+                <p>É importante frisar que a instalação de arranhadores pode ajudar a conter a vontade que bichanos têm
+                    de
+                    arranhar móveis e estofados. Esse enriquecimento ambiental para gatos mantém sua casa intacta
+                    enquanto
+                    seu animal é estimulado. </p>
+            </div>
+
+            <div class="img"><img src="img-blog/img12.webp" alt=""></div>
+
+            <div class="subtitulo">
+                <h2>Grama para gatos</h2>
+            </div>
+
+            <div class="texto">
+                <p>Além de ajudar no trânsito intestinal, a grama para gatos também é uma ótima opção para compor o
+                    enriquecimento do ambiente. Vale ressaltar que estamos nos referindo à graminha que é vendida
+                    especificamente para os bichanos.</p>
+            </div>
+
+            <div class="texto">
+                <p>Desenvolvida para felinos, ela massageia os dentes, ajuda a aliviar dores intestinais e a direcionar
+                    as
+                    brincadeiras com mordidas, diminuindo a frequência das dentadas. Então, se você está procurando
+                    ideias
+                    de enriquecimento ambiental para gatos, essa é a mais diferente e que auxilia na saúde. </p>
+            </div>
+
+            <div class="subtitulo">
+                <h3>Brinquedos diversos </h3>
+            </div>
+
+            <div class="texto">
+                <p>Vendidos nos mais diversos formatos e finalidades, os brinquedos para gatos ajudam a entretê-los,
+                    diverti-los e, principalmente, estimulá-los a se movimentar e a brincar.</p>
+            </div>
+
+            <div class="texto">
+                <p>Geralmente feito com penas, plumas e guizos, costuma chamar bastante a atenção dos bichanos. Também é
+                    comum que o gato prefira algum modelo e brinque mais ativamente com ele. Desde que seja saudável,
+                    brincar deve fazer parte da rotina dos gatos por todos os motivos já citados neste artigo!</p>
+            </div>
+
+            <div class="subtitulo">
+                <h2>Você pode colaborar ainda mais com o bem-estar de seu bichano!</h2>
+            </div>
+
+            <div class="texto">
+                <p>Além de investir em itens interativos e que tornam o ambiente mais rico para seu bichano, você deve
+                    dedicar um tempo do seu dia para animá-lo, dar carinho, brincar e realizar atividades que envolvam
+                    interação entre animal e tutor.</p>
+            </div>
+
+            <div class="texto">
+                <p>Ao contrário do que muitos pensam, os gatos podem ser muito carinhosos e sensíveis, principalmente se
+                    forem socializados desde cedo com os humanos. Por isso, é importante que o carinho faça parte do dia
+                    a
+                    dia com eles. Não se espante se ele escolher seu colo para uma soneca! </p>
+            </div>
+
+            <div class="texto">
+                <p>Apesar de brincalhões e ativos, como explicado, faz parte da rotina dos bichanos realizar várias
+                    pausas
+                    para soneca e descanso durante o dia. Isso pode ser ainda mais agradável quando feito junto aos
+                    tutores.
+                </p>
+            </div>
+
+            <div class="subtitulo">
+                <h2>O enriquecimento ambiental para gatos é uma prova de cuidado, carinho e amor!</h2>
+            </div>
+
+            <div class="texto">
+                <p>Apesar de simples, o enriquecimento ambiental para gatos é um grande gesto de amor e indicativo de
+                    cuidado, preocupação com a vida e bem-estar de seus amigos de quatro patas.
+                </p>
+            </div>
+
+            <div class="texto">
+                <p>Nós, do Adote Petz, antes de conectar um tutor a um novo felino, recomendamos sempre que algumas
+                    ações
+                    sejam tomadas no futuro lar do pet. Tudo isso a fim de tornar a vida mais confortável e feliz.</p>
+            </div>
+
+            <div class="texto">
+                <p>Com pequenos gestos, como a instalação e disposição dos itens indicados, seu bichano irá se sentir
+                    mais
+                    confortável, além de tender a levar uma vida mais leve, alegre e saudável.</p>
+            </div>
+
+            <div class="img">
+                <img src="img-blog/img1.jpg" alt="">
+            </div>
+
+            <div class="texto">
+                <a href="https://www.adotepetz.com.br/blog/enriquecimento-ambiental-para-gatos-saiba-otimizar-o-ambiente-para-seu-pet/"><p>Fonte da notícia</p></a>
+                <p>Se você se interessou pelo enriquecimento ambiental para gatos, pode encontrar os itens citados em
+                    uma
+                    das Petz espalhadas pelo Brasil. Nós, do <a href="#"> Infopets</a>, estamos sempre à disposição para
+                    ajudar com dicas sobre como melhorar o ambiente, como tratar os animais e diversos outros tópicos
+                    relacionados à vida deles! Continue nos acompanhando para se manter atualizado!</p>
+
+                    <br>
+
+
+            </div>
+            
+        </div>
+
+
+<div class="ads">
+
+<h1>VEJA MAIS</h1>
+
+    <br><br>
+
+<a href=""><img src="img-blog/ad1.jpg" alt=""></a>
+
+<a href="https://gauchazh.clicrbs.com.br/seguranca/noticia/2023/06/policia-desarticula-esquema-de-comercio-ilegal-de-animais-em-estancia-velha-cljea08zg00290156ssp8cuow.html" class="titulo-ads">Polícia desarticula esquema de comércio ilegal de animais em Estância Velha.</a>
+
+<br><br>
+
+<a href="https://www1.folha.uol.com.br/ambiente/2023/06/centenas-de-leoes-marinhos-estao-morrendo-na-california-a-culpa-e-das-algas.shtml"><img src="img-blog/adve.jfif" alt=""></a>
+
+<a href="https://www1.folha.uol.com.br/ambiente/2023/06/centenas-de-leoes-marinhos-estao-morrendo-na-california-a-culpa-e-das-algas.shtml" class="titulo-ads">Centenas de leões-marinhos estão morrendo na Califórnia. A culpa é das algas?</a>
+
+<br><br>
+
+<a href="https://www1.folha.uol.com.br/folhinha/2023/06/saiba-por-que-gatos-gostam-de-entrar-em-caixas-e-de-jogar-objetos-no-chao.shtml"><img src="img-blog/adve2.jpg" alt=""></a>
+
+<a href="https://www1.folha.uol.com.br/folhinha/2023/06/saiba-por-que-gatos-gostam-de-entrar-em-caixas-e-de-jogar-objetos-no-chao.shtml" class="titulo-ads">Saiba por que gatos gostam de entrar em caixas e de jogar objetos no chão.</a>
+
+</div>
+
+
+    </main>
+
+    <footer>
+        <a href="#"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+        
+        <div class="main-footer">
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"> Mapa do Site</span>
+            <a href="lista.html">Lista Completa</a>
+            <a href="blog.html">Blog</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo">Nossas Redes</span>
+            <div class="redes">
+              <a href="">  
+                <i class="fa-brands fa-instagram" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-facebook" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            </div>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+        </div>
+        
+        </div><!--/main-footer/-->
+        
+        <hr>
+        
+        <span class="direitos">© 2023  Infopets - Todos os Direitos Reservados</span>
+        
+        </footer>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="regiaon.css">
+    <link rel="icon" href="img/iconetcc.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Região Sul</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="container-header">
+    
+            <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+    
+          <a href="index.html" class="bottom-line">Inicio</a>
+          <a href="lista.html" class="bottom-line">Lista Completa</a>
+          <a href="blog.html" class="bottom-line">Blog</a>
+          <a href="equipe.html" class="bottom-line">Equipe</a>
+          <a href="http://localhost/rafaelv/cadastro/index.php" class="bottom-line">Cadastre sua ONG</a>
+    
+          <div class="btn-container">
+            <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+          </div>
+          
+    
+         <!--AUMENTAR E DIMINUIR FONTE--> 
+    
+          <script>
+          
+          window.onload = function() {
+              var elementBody = document.querySelector('body');
+              var elementBtnIncreaseFont = document.getElementById('increase-font');
+              var elementBtnDecreaseFont = document.getElementById('decrease-font');
+              // Padrão de tamanho, equivale a 100% do valor definido no Body
+              var fontSize = 100;
+              // Valor de incremento ou decremento, equivale a 10% do valor do Body
+              var increaseDecrease = 10;
+          
+              // Evento de click para aumentar a fonte
+              elementBtnIncreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize + increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          
+              // Evento de click para diminuir a fonte
+              elementBtnDecreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize - increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          }
+          
+          </script>
+    
+    
+    <!--DARK MODE-->
+    
+        
+          <div class="toggle">
+            
+            
+            <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+            
+            <label class="toggle-label" for="myonoffswitch">
+                <span class="toggle-inner"></span>
+                <span class="toggle-switch"></span>
+            </label>
+        
+            
+    
+        </div>
+    
+    
+      </div>
+    
+      
+    
+          <script>
+    
+    function dark_mode() {
+                    var body = document.body;
+                    body.classList.toggle("dark-mode");
+    }
+    
+          </script>
+    
+    
+    
+    
+        </div>
+    
+      </header>
+
+      
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+<center>
+
+        <div class="corpo">
+            <h1>Região Sul</h1>
+            
+            <div class="container">
+                <div class="item">
+                    <div class="imagem11"><h3>Beto Salva-Cão</h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            
+                            <span>Contatos: (51) 98407-4420</span>
+                            <p>Descrição: Beto é o fundador da ong, um dedicado protetor dos animais muito, indo além dos projetos e resgates, também trabalha na conscientização da comunidade sobre a importância dos direitos dos animais e de coisas como castração.
+                            </p> 
+                        </div>
+                        <a href="https://betosalvacao.org/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+                   
+
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="item">
+                    <div class="imagem12"><h3>ARPA-RS</h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            
+                            <span>Contatos:
+                                (51) 3223-1914</span>
+                            <p>Descrição:   Associação Rio-grandense de Proteção aos Animais (ARPA) foi fundada pela senhora Dona Palmira Gobbi em 1949, ela acreditava que todos os animais merecem o devido respeito e não mereciam os maltratos que sofriam por causa das pessoas. Desde de 1949, a “Associação Rio-grandense de Proteção aos Animais”, a ARPA, ajuda os animais indefesos como cães, gatos e por muito tempo, atendeu equinos (Como cavalo, asno, mula e jumento).</p>
+                        </div>
+                        <a href="https://arpa-rs.blogspot.com/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+
+            <div class="container">
+                <div class="item">
+                    <div class="imagem13"><h3>Arca do José</h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            
+                            <span>Contatos:LIGAR AGORA
+                                (51) 99918-9241</span>
+                            <p>Descrição: Arca de José: A Arca de José é ONG que foi criada por José Damião dos Santos de 47 anos, seu principal motivo para a criação da ONG foi quando José perdeu tudo em uma enchente que atingiu Porto Alegre onde José perde quase tudo que tinha. Mas, para José a pior parte foi ter visto diversos animais abandonados, passando frio, fome e sede. Por causa disso José criou a ONG A Arca de José. O seu principal objetivo é dar todo o cuidado e carinho aos animais de rua.
+
+                            </p>
+                        </div>
+                        <a href="https://arca-do-jose.negocio.site/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+           
+            <div class="container">
+                <div class="item">
+                    <div class="imagem14"><h3>Pets Sem Fronteiras.</h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                            
+                            <span>Contatos:contato@petssemfronteiras.org.br</span>
+                            <p>Descrição: A PETS SEM FRONTEIRAS possui dentre seus fins e objetivos institucionais o apoio, o desenvolvimento, a promoção do cuidado e proteção dos animais. A ONG tem como os principais membros da equipe: André Sanseverino (Presidente Pets Sem Fronteiras); Susana Pazini (Responsável Técnica da ONG9); Celso Augusto (Biólogo da ONG); A ONG também tem parceria com A. YOSHI, 100% ANIMAIS, ODERÇO e AUDI, que patrocinam e divulgam a ONG de diversas formas. No site da ONG, pode também acessar o blog de notícia deles, onde lá podemos ver diversos relatos, historias e notícias sobre animais abandonados, maus-tratos, animais resgatados e etc.... 
+                                </p>
+                        </div>
+                        <a href="http://petssemfronteiras.org.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+    
+
+            <div class="container">
+                <div class="item">
+                    <div class="imagem15">  <h3>Rede de Proteção Animal</h3>
+                    </div>
+                    <div class="onglista">
+                        <div>
+                          
+                            <span>Contatos:(41) 3249-6130</span>
+                            <p>Descrição:  A Rede de Proteção Animal é uma ONG que tem o apoio da prefeitura de Curitiba. A ONG tem envolvimento com resgate de animais, ajudam nas buscas de forma online e presencial. A Rede de Proteção Animal também faz adoções de animais basta acessar o site deles ou ir ao estabelecimento da ONG, lá tem todas as descrições dos animais (tamanho e peso, se é macho ou fêmea e o estabelecimento onde o animal se encontra).</p>
+                        </div>
+                        <a href="https://protecaoanimal.curitiba.pr.gov.br/" class="botao">Clique Aqui</a>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+
+
+     
+
+
+        </div>
+    </center>
+    <!-- setas -->
+    <div class="prox-ant">
+
+        <div class="seta">
+    
+           <a href="noticia7.html"><i class="fa-solid fa-chevron-left"></i></a>
+    
+        </div>
+    
+    
+    <div class="ant">
+    
+        <a href="regiaoss.html">SUDESTE</a>
+    
+    </div>
+    
+    
+    
+    <div class="prox">
+    
+    <a href="regiaon.html">NORTE</a>
+    
+    
+    </div>
+    
+    
+    
+    <div class="seta">
+    
+        <a href="regiaon.html"><i class="fa-solid fa-chevron-right"></i></a>
+    
+    </div>
+    
+    </div>
+    
+        </div>
+    
+    </div>
+    <footer>
+        <a href="#"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+        
+        <div class="main-footer">
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"> Mapa do Site</span>
+            <a href="lista.html">Lista Completa</a>
+            <a href="blog.html">Blog</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo">Nossas Redes</span>
+            <div class="redes">
+              <a href="">  
+                <i class="fa-brands fa-instagram" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-facebook" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            </div>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+        </div>
+        
+        </div><!--/*main-footer*/-->
+        
+        <hr>
+        
+        <span class="direitos">© 2023  Infopets - Seu agregador de ONGS, todos os direitos reservados</span>
+        
+        </footer>
+        
+        
+
+
+
+
+
+        <script>
+            AOS.init();
+        </script>
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>  
+    <link rel="icon" href="img/iconetcc.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="noticias.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+     <!-------------header-----\/----header---\/----header----\/-----header----\/----header-------\/-------->
+
+     <header>
+
+        <div class="container-header">
+    
+         <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+    
+          <a href="index.html" class="bottom-line">Inicio</a>
+          <a href="lista.html" class="bottom-line">Lista Completa</a>
+          <a href="blog.html" class="bottom-line">Blog</a>
+          <a href="equipe.html" class="bottom-line">Equipe</a>
+          <a href="http://localhost/rafaelv/cadastro/index.php" class="bottom-line">Cadastre sua ONG</a>
+    
+          <div class="btn-container">
+            <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+            <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+          </div>
+          
+    
+         <!--AUMENTAR E DIMINUIR FONTE--> 
+    
+          <script>
+          
+          window.onload = function() {
+              var elementBody = document.querySelector('body');
+              var elementBtnIncreaseFont = document.getElementById('increase-font');
+              var elementBtnDecreaseFont = document.getElementById('decrease-font');
+              // Padrão de tamanho, equivale a 100% do valor definido no Body
+              var fontSize = 100;
+              // Valor de incremento ou decremento, equivale a 10% do valor do Body
+              var increaseDecrease = 10;
+          
+              // Evento de click para aumentar a fonte
+              elementBtnIncreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize + increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          
+              // Evento de click para diminuir a fonte
+              elementBtnDecreaseFont.addEventListener('click', function(event) {
+                  fontSize = fontSize - increaseDecrease;
+                  elementBody.style.fontSize = fontSize + '%';
+              });
+          }
+          
+          </script>
+    
+    
+    <!--DARK MODE-->
+    
+        
+          <div class="toggle">
+            
+            
+            <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+            
+            <label class="toggle-label" for="myonoffswitch">
+                <span class="toggle-inner"></span>
+                <span class="toggle-switch"></span>
+            </label>
+        
+            
+    
+        </div>
+    
+    
+      </div>
+    
+      
+    
+          <script>
+    
+    function dark_mode() {
+                    var body = document.body;
+                    body.classList.toggle("dark-mode");
+    }
+    
+          </script>
+    
+    
+    
+    
+        </div>
+    
+      </header>
+
+
+  <!-------------header----/\-----header---/\----header----/\-----header----/\----header------/\--------->
+    
+  <div class="container-inicial">
+
+    <div class="conteudo-inicial">
+
+        <a href="blog.html" class="blog"><h3>Blog</h3></a>
+
+<br>
+
+<h1>Introduzir um segundo gato a casa.</h1>
+
+<br>
+
+<div class="prox-ant">
+
+    <div class="seta">
+
+       <a href="noticia8.html"><i class="fa-solid fa-chevron-left"></i></a>
+
+    </div>
+
+
+<div class="ant">
+
+    <a href="noticia8.html">ANTERIOR</a>
+    <a href="noticia8.html"><p>Veja 25 curiosidades sobre os cachorros </p></a>
+
+</div>
+
+
+</div>
+
+    </div>
+
+</div>
+    
+    <main>
+     
+
+        <div class="conteudo">
+<div class="img"><img src="img-blog/img10.png" alt=""></div>
+
+<div class="texto">
+    <p>Já tem um bichano em casa e está pensando em adotar um segundo? Pois saiba que a maneira como fazemos a adaptação de gatos, introduzindo o recém-chegado de modo adequado, é fundamental para que os pets tenham uma melhor convivência entre si. </p>
+</div>
+
+<div class="texto">
+    <p>Bastante comuns nesse primeiro momento, atitudes como dar mais atenção ao novato ou insistir para que os pets dividam o mesmo ambiente e recursos podem prejudicar ainda mais uma relação que, pela própria natureza territorialista dos gatos, já tende a ser conflituosa. </p>
+</div>
+
+<div class="img"><img src="img-blog/img27.webp" alt=""></div>
+
+<div class="texto">
+    <p>Com algumas estratégias, porém, é possível promover uma convivência harmoniosa não apenas entre os bichanos, mas entre toda a família multiespécie. Confira nossas dicas para adaptação de gatos a seguir.</p>
+</div>
+
+<div class="subtitulo"><h2>Afinal, por que é tão difícil fazer um gato se dar bem com outro?</h2></div>
+
+<div class="texto">
+    <p>Ao contrário do que ocorre em ambiente doméstico, onde um tutor pode providenciar comida e outros recursos para mais de um gato sem tantos problemas, na natureza, a disputa por recursos é intensa. </p>
+</div>
+
+<div class="texto">
+    <p>Assim, o objetivo de uma adaptação de gatos a novos gatos é fazer com que o gatinho que já mora conosco há mais tempo entenda que os recursos dele não serão ameaçados pela chegada do outro gato. </p>
+</div>
+
+<div class="texto">
+    <p>Ao mesmo tempo, é preciso dar ao recém-chegado segurança, de modo que ele não se sinta em território inimigo. Do contrário, ambos poderão ter sua saúde física e mental prejudicadas.</p>
+</div>
+
+<div class="subtitulo"><h2>Como introduzir um segundo gato em casa?</h2></div>
+
+<div class="texto">
+    <p>Os cuidados com o preparo para a adaptação de gato novo em casa começam com a escolha do novo bichano. De preferência, esta deve ser feita levando em conta as características do pet residente, como idade e temperamento. </p>
+</div>
+
+<div class="texto">
+    <p>Em geral, gatos idosos podem ficar mais estressados com a chegada de um filhote cheio de energia. Na verdade, a adaptação de gato filhote costuma ser mais fácil, uma vez que nessa fase eles são mais maleáveis e abertos a novas situações. </p>
+</div>
+
+<div class="texto">
+    <p>No entanto, mesmo que seja uma adaptação de gatos filhotes, é preciso tomar os cuidados a seguir: </p>
+</div>
+
+<div class="img"><img src="img-blog/img25.webp" alt=""></div>
+
+<div class="subtitulo"><h2>Escolha e prepare um cômodo para o novo morador</h2></div>
+
+<div class="texto">
+    <p>Mais do que apenas impedir que um bichano tenha contato físico com o outro, a princípio, não é recomendado sequer permitir que eles mantenham contato visual, já que a troca de olhares é uma das maneiras de os felinos se confrontarem.</p>
+</div>
+
+<div class="texto">
+    <p>Assim, o melhor é manter o recém-chegado inicialmente num cômodo separado. Este deve estar devidamente “gatificado” com redes de proteção na janela, além de conter todos os recursos que o pet necessita, como: comedouro, bebedouro, caixa sanitária espaçosa, toca em tamanho adequado e arranhador. </p>
+</div>
+
+<div class="subtitulo"><h2>Promova um “intercâmbio” de odores entre os bichanos</h2></div>
+
+<div class="texto">
+    <p>O cheirinho que escapa pelas frestas da porta não passa despercebido pelo olfato dos bichanos. No entanto, é importante estimular ainda mais a troca de odores, para que haja uma boa adaptação de gatos: adultos ou filhotes. </p>
+</div>
+
+<div class="texto">
+    <p>Para isso, pegue alguns brinquedos usados pelo recém-chegado e coloque-os em locais da casa frequentados pelo pet residente e vice-versa. </p>
+</div>
+
+<div class="texto">
+    <p>Só fique atento para não colocar tais objetos muito próximos a recursos essenciais para os bichanos, tais como comedouro, bebedouro e caixa sanitária. Isso pode fazer com que o gato deixe de se alimentar, de beber água ou passe a eliminar em locais inadequados. </p>
+</div>
+
+<div class="texto">
+    <p>Premiar os gatos com um petisco sempre que eles interagirem com o brinquedo do outro bichano da casa disponibilizado para ele também é um jeito de reforçar positivamente a adaptação de gatos. </p>
+</div>
+
+<div class="subtitulo"><h2>Troque o território dos bichanos</h2></div>
+
+<div class="texto">
+    <p>Uma vez que o gato residente estiver mais à vontade com o cheiro do recém-chegado, e que este esteja confortável em seu novo cantinho, é hora de permitir que o novato conheça os demais ambientes da casa. Mas atenção: ainda não é hora de liberar o contato físico e visual. </p>
+</div>
+
+<div class="img"><img src="img-blog/img24.webp" alt=""></div>
+
+<div class="texto">
+    <p>A fim de fazer a troca de ambientes, leve o novato para um ambiente pouco frequentado pelo residente e feche a porta. Em seguida, deixe que o anfitrião entre no cômodo do recém-chegado e feche a porta. Permita que o novo membro da família explore o ambiente. </p>
+</div>
+<div class="texto">
+    <p>Passado algum tempo, coloque o novato novamente no cômodo com a porta fechada, solte o residente e volte a manter os pets separados. Repita o procedimento até perceber que os dois gatinhos já se sentem à vontade no ambiente um do outro, o que pode levar de poucos dias até mais de uma semana. </p>
+</div>
+
+<div class="subtitulo"><h2>Alimentação simultânea, mas em ambientes separados</h2></div>
+
+<div class="texto">
+    <p>Já que a intenção é fazer com que ambos os gatinhos se sintam mais seguros, sentindo que seu território, com todos os seus recursos, não está ameaçado, outro passo importante na adaptação de gatos é fazer com que eles comam ao mesmo tempo, próximos um do outro, mas ainda sem trocarem contato visual.</p>
+</div>
+
+<div class="texto">
+    <p>Disponha o comedouro dos dois gatos a cerca de pelo menos um metro um do outro, separados pela porta do cômodo reservado ao novato. Vá aproximando os potinhos de comida da porta aos poucos, sempre levando em conta as reações dos dois gatos. Faça isso até que os bichanos estejam se alimentando pertinho um do outro.</p>
+</div>
+
+<div class="subtitulo"><h2>Controle o contato visual</h2></div>
+
+<div class="texto">
+    <p>Cumpridas todas as etapas, escolha um ambiente seguro para apresentar oficialmente um gato a outro. O local deve ficar isolado, evitando que os bichanos se direcionem para locais de difícil acesso em caso de brigas.</p>
+</div>
+
+<div class="texto">
+    <p>Por isso, procure fechar todas as portas. Além disso, impeça o acesso a espaços onde os gatos possam se esconder para se atracar, como embaixo do sofá ou da cama. </p>
+</div>
+
+<div class="texto">
+    <p>A fim de que as brigas não aconteçam, a dica é manter os bichanos em cantinhos diferentes do recinto, onde devem receber muitas atividades para que não foquem um no outro. </p>
+</div>
+
+<div class="texto">
+    <p>Para isso, você pode contar com a ajuda dos petiscos e das brincadeiras favoritas de cada gato. Sempre que possível, é melhor que fique um membro da família com cada pet para distraí-lo.</p>
+</div>
+
+<div class="subtitulo">Recursos</div>
+
+<div class="texto">
+    <p>É preciso ter cada recurso em quantidade superior ao número de gatos. Por exemplo, se você convive com dois bichanos, é preciso ter três caixas sanitárias, sendo que os recursos não devem ser dispostos um ao lado do outro. Justamente para evitar conflitos, o objetivo é que, enquanto um gato utiliza determinado recurso, o outro possa ter uma alternativa. </p>
+</div>
+
+<div class="img"><img src="img-blog/img10.png" alt=""></div>
+
+<div class="texto">
+    <p>Essa multiplicação desde o início é importante para que o residente compreenda ambientalmente que é possível receber um novo indivíduo, haja vista haver recursos suficientes.</p>
+</div>
+
+<div class="texto">
+    <p>Por fim, em caso de qualquer dificuldade no processo de adaptação de gatos, a novos donos ou a outros pets que você já tenha em casa, não deixe de consultar um especialista em comportamento felino! Isso vale também para os casos em que a introdução foi feita de maneira inadequada, gerando conflitos entre os bichanos. </p>
+</div>
+
+<div class="texto">
+    <a href="https://www.hospvetsantamarinha.com/blog/60-curiosidades-gatos/
+                "><p>Fonte da notícia</p></a>
+    <p>Para entender melhor sobre a adaptação de gatos e demais pets a uma casa nova e, também, à novos irmãos, acompanhe nossas publicações aqui, no Infopets! </p>
+</div>
+
+
+        </div>
+       
+<div class="ads">
+
+    <h1>VEJA MAIS</h1>
+    
+        <br><br>
+    
+    <a href=""><img src="img-blog/ad1.jpg" alt=""></a>
+    
+    <a href="https://gauchazh.clicrbs.com.br/seguranca/noticia/2023/06/policia-desarticula-esquema-de-comercio-ilegal-de-animais-em-estancia-velha-cljea08zg00290156ssp8cuow.html" class="titulo-ads">Polícia desarticula esquema de comércio ilegal de animais em Estância Velha</a>
+    
+    <br><br>
+    
+    <a href="https://www1.folha.uol.com.br/ambiente/2023/06/centenas-de-leoes-marinhos-estao-morrendo-na-california-a-culpa-e-das-algas.shtml"><img src="img-blog/adve.jfif" alt=""></a>
+    
+    <a href="https://www1.folha.uol.com.br/ambiente/2023/06/centenas-de-leoes-marinhos-estao-morrendo-na-california-a-culpa-e-das-algas.shtml" class="titulo-ads">Centenas de leões-marinhos estão morrendo na Califórnia. A culpa é das algas?</a>
+    
+    <br><br>
+    
+    <a href="https://www1.folha.uol.com.br/folhinha/2023/06/saiba-por-que-gatos-gostam-de-entrar-em-caixas-e-de-jogar-objetos-no-chao.shtml"><img src="img-blog/adve2.jpg" alt=""></a>
+    
+    <a href="https://www1.folha.uol.com.br/folhinha/2023/06/saiba-por-que-gatos-gostam-de-entrar-em-caixas-e-de-jogar-objetos-no-chao.shtml" class="titulo-ads">Saiba por que gatos gostam de entrar em caixas e de jogar objetos no chão</a>
+    
+    </div>
+    </main>
+    
+    <footer>
+        <a href="#"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+        
+        <div class="main-footer">
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"> Mapa do Site</span>
+            <a href="lista.html">Lista Completa</a>
+            <a href="blog.html">Blog</a>
+            <a href="equipe.html">Equipe</a>
+            <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo">Nossas Redes</span>
+            <div class="redes">
+              <a href="">  
+                <i class="fa-brands fa-instagram" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-square-facebook" ></i>
+            </a>
+            <a href="">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            </div>
+        </div>
+        
+        <div class="artigo-footer">
+            <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+        </div>
+        
+        </div><!--/main-footer/-->
+        
+        <hr>
+        
+        <span class="direitos">© 2023  Infopets - Todos os Direitos Reservados</span>
+        
+        </footer>
+    
+
+</body>
+</html>

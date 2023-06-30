@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="icon" href="iconetcc.png">
+    <link rel="stylesheet" href="equipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipe - Info Pets</title>
+</head>
+
+<body>
+    
+  <header id="topo-site">
+
+    <div class="container-header">
+
+    <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+
+      <a href="index.html" class="bottom-line">Inicio</a>
+      <a href="lista.html" class="bottom-line">Lista Completa</a>
+      <a href="blog.html" class="bottom-line">Blog</a>
+      <a href="equipe.html" class="bottom-line">Equipe</a>
+      <a href="404.html" class="bottom-line">Cadastre sua ONG</a>
+
+      <div class="btn-container">
+        <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+      </div>
+      
+
+     <!--AUMENTAR E DIMINUIR FONTE--> 
+
+      <script>
+      
+      window.onload = function() {
+          var elementBody = document.querySelector('body');
+          var elementBtnIncreaseFont = document.getElementById('increase-font');
+          var elementBtnDecreaseFont = document.getElementById('decrease-font');
+          // Padrão de tamanho, equivale a 100% do valor definido no Body
+          var fontSize = 100;
+          // Valor de incremento ou decremento, equivale a 10% do valor do Body
+          var increaseDecrease = 10;
+      
+          // Evento de click para aumentar a fonte
+          elementBtnIncreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize + increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      
+          // Evento de click para diminuir a fonte
+          elementBtnDecreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize - increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      }
+      
+      </script>
+
+
+<!--DARK MODE-->
+
+    
+      <div class="toggle">
+        
+        
+        <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+        
+        <label class="toggle-label" for="myonoffswitch">
+            <span class="toggle-inner"></span>
+            <span class="toggle-switch"></span>
+        </label>
+    
+        
+
+    </div>
+
+
+  </div>
+
+  
+
+      <script>
+
+function dark_mode() {
+                var body = document.body;
+                body.classList.toggle("dark-mode");
+}
+
+      </script>
+
+
+
+
+    </div>
+
+  </header>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+
+
+<div class="a">
+
+<div class="artigo-equipe">
+
+    <div class="foto-equipe"></div>
+
+<div class="wrapper">
+  <div class="container">
+    <!-- Box [1] -->
+    <div class="box" data-aos="fade-right" data-aos-duration="500">
+      <div class="box__head">
+        <img src="img/rafa.jpg">
+      </div>
+      <div class="box__content">
+        <h2>Rafael V. Freitas</h2>
+        <p>Direção de Arte</p>
+      </div>
+      <div class="box__social">
+        <a href="https://www.instagram.com/rafaelthecrocodilo/"><i class="fa-brands fab fa-instagram	"></i></a>
+        <a href="https://www.linkedin.com/in/rafael-vinicius-boeno-freitas-7111a3270/"><i class="fa-brands 	fab fa-linkedin"></i></a>
+        <a href="https://github.com/rafaelcroco35"><i class="fa-brands fab fa-github	"></i></a>
+        <a href="https://rafaelcroco35.github.io/portfolio_completo/"><i class="fa-brands 	fab fa-github-alt"></i></a>
+      </div>
+    </div>
+    <!-- Box [2] -->
+    <div class="box" data-aos="fade-up" data-aos-duration="500">
+      <div class="box__head">
+        <img src="img/ricardo.jpg">
+      </div>
+      <div class="box__content">
+        <h2>Ricardo Rodrigues</h2>
+        <p>Administração</p>
+      </div>
+      <div class="box__social">
+       <a href="https://www.instagram.com/nz_rick/"><i class="fa-brands fab fa-instagram	"></i></a>
+       <a href="https://richardrian0.github.io/Portfolio/"><i class="fa-brands 	fab fa-linkedin"></i></a>
+       <a href="https://github.com/snyxzn"><i class="fa-brands fab fa-github	"></i></a>
+       <a href="https://snyxzn.github.io/portfolio/"><i class="fa-brands fab fa-github-alt	"></i></a>
+      </div>
+    </div>
+    <!-- Box [3] -->
+    <div class="box" data-aos="fade-left" data-aos-duration="500">
+      <div class="box__head">
+        <img src="img/nathan.jpg">
+      </div>
+      <div class="box__content">
+        <h2>Nathan Vargas</h2>
+        <p>Comunicação</p>
+      </div>
+      <div class="box__social">
+        <a href="https://www.instagram.com/nathan_vp2005/"> <i class="fa-brands fab fa-instagram	"></i> </a>
+        <a href="https://www.linkedin.com/in/nathan-vargas-pastusak-lemos-2a51a2270/"> <i class="fa-brands 	fab fa-linkedin"></i> </a>
+        <a href="https://github.com/NathanVPLemos"> <i class="fa-brands fab fa-github	"></i> </a>
+        <a href="https://nathanvplemos.github.io/portfolio-nathan/"> <i class="fa-brands fab fa-github-alt"></i> </a>
+      </div>
+    </div>
+    <!-- Box [4] -->
+    <div class="box" data-aos="fade-right" data-aos-duration="500">
+      <div class="box__head">
+        <img src="img/richard.jpg">
+      </div>
+      <div class="box__content">
+        <h2>Richard Ribeiro</h2>
+        <p>Gestão de Cadastro</p>
+      </div>
+      <div class="box__social">
+      <a href="https://www.instagram.com/10richard_ribeiro/"><i class="fa-brands fab fa-instagram	"></i> </a>
+      <a href="https://www.linkedin.com/in/richard-ribeiro-7a11a3270/"> <i class="fa-brands 	fab fa-linkedin"></i></a>
+      <a href="https://github.com/richardrian0"> <i class="fa-brands fab fa-github	"></i> </a>
+      <a href="https://richardrian0.github.io/Portfolio/"> <i class="fa-brands fab fa-github-alt"></i> </a>
+      </div>
+    </div>
+    <!-- Box [5] -->
+    <div class="box" data-aos="fade-left" data-aos-duration="500">
+      <div class="box__head">
+        <img src="img/adrian.jpg">
+      </div>
+      <div class="box__content">
+        <h2>Adrian Ariel</h2>
+        <p>Redação do Blog</p>
+      </div>
+      <div class="box__social">
+        <a href="https://www.instagram.com/ariel_adrian.18/">  <i class="fa-brands fab fa-instagram	"></i></a>
+        <a href="https://www.linkedin.com/in/adrian-ariel-65ab23247/"> <i class="fa-brands 	fab fa-linkedin"></i></a>
+        <a href="https://github.com/adrianariel441"> <i class="fa-brands fab fa-github	"></i></a>
+        <a href="https://adrianariel441.github.io/portfolio/"> <i class="fa-brands fab fa-github-alt"></i></a>
+      </div>
+
+      
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+<h1 class="titulo-equipe-2">Orientadores</h1>
+
+<div class="wrapper">
+  <div class="container">
+    <!-- Box [1] -->
+    <div class="box" data-aos="fade-left" data-aos-duration="500">
+      <div class="box__head">
+        <img src="https://pps.whatsapp.net/v/t61.24694-24/169383260_788035465472793_3104571233624104063_n.jpg?ccb=11-4&oh=01_AdRHUES8wbb9TYPQGQPqyGrKBcvi1-_a1qh78VRFvbGa_w&oe=64A82AFD">
+      </div>
+      <div class="box__content">
+        <h2>Clarice Fernandes</h2>
+        <p>Pedagoga </p>
+      </div>
+      <div class="box__social">
+        <a href="https://www.instagram.com/claryfnandes/"><i class="fa-brands fab fa-instagram	"></i></a>
+        <a href="https://www.linkedin.com/in/clarice-fernandes-1b3b66115/"><i class="fa-brands 	fab fa-linkedin"></i></a>
+      
+      </div>
+    </div>
+    <!-- Box [2] -->
+    <div class="box" data-aos="fade-up" data-aos-duration="500">
+      <div class="box__head">
+        <img src="img/mota.jpeg" >
+      </div>
+      <div class="box__content">
+        <h2>Gustavo Mota</h2>
+        <p>Monitor</p>
+      </div>
+      <div class="box__social">
+       <a href="https://www.instagram.com/gustavomota27/"><i class="fa-brands fab fa-instagram	"></i></a>
+       <a href="https://www.linkedin.com/in/gustavo-mota-6bb39b1bb/"><i class="fa-brands 	fab fa-linkedin"></i></a>
+      
+      </div>
+    </div>
+    <!-- Box [3] -->
+    <div class="box" data-aos="fade-right" data-aos-duration="500">
+      <div class="box__head">
+        <img src="https://pps.whatsapp.net/v/t61.24694-24/154835468_209100977728806_9026908179637960009_n.jpg?ccb=11-4&oh=01_AdRmD3EPxOFMUZOoxKsVX7__-hnXvpcw48zXHLH_JvJklQ&oe=64A8203E">
+      </div>
+      <div class="box__content">
+        <h2>João Henrique</h2>
+        <p>Instrutor de TI</p>
+      </div>
+      <div class="box__social">
+        <a href="https://www.instagram.com/joaohenrique35/"> <i class="fa-brands fab fa-instagram	"></i> </a>
+        <a href="https://www.linkedin.com/in/jo%C3%A3o-reis-52008523/"> <i class="fa-brands 	fab fa-linkedin"></i> </a>
+        
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+
+
+
+</div>
+
+<footer>
+    <a href="#topo-site"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+    
+    <div class="main-footer">
+    
+    <article class="artigo-footer">
+        <span class="footer-titulo"> Mapa do Site</span>
+        <a href="index.html">Inicio</a>
+        <a href="lista.html">Lista Completa</a>
+        <a href="blog.html">Blog</a>
+        <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+    </article>
+    
+    <article class="artigo-footer">
+        <span class="footer-titulo">Nossas Redes</span>
+        <div class="redes">
+          <a href="">  
+            <i class="fa-brands fa-instagram" ></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-square-facebook" ></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        </div>
+    </article>
+    
+    <div class="artigo-footer">
+      <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+    </div>
+
+   
+
+    
+    </div><!--/*main-footer*/-->
+    
+    <hr>
+    
+    <span class="direitos">© 2023  Infopets - Seu agregador de ONGS, todos os direitos reservados</span>
+    
+    </footer>
+
+    <script>
+      AOS.init();
+    </script>
+   
+</body>
+</html>

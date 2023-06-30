@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <link rel="icon" href="iconetcc.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="blog.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Info Pets</title>
+
+</head>
+
+<body>
+
+  <!-------------header-----\/----header---\/----header----\/-----header----\/----header-------\/-------->
+
+  <header>
+
+    <div class="container-header">
+
+     <a href="index.html"><img src="img/logotcc 4.png" alt="" class="logo"></a>
+
+      <a href="index.html" class="bottom-line">Inicio</a>
+      <a href="lista.html" class="bottom-line">Lista Completa</a>
+      <a href="blog.html" class="bottom-line">Blog</a>
+      <a href="equipe.html" class="bottom-line">Equipe</a>
+      <a href="404.html" class="bottom-line">Cadastre sua ONG</a>
+
+      <div class="btn-container">
+        <button name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+      </div>
+      
+
+     <!--AUMENTAR E DIMINUIR FONTE--> 
+
+      <script>
+      
+      window.onload = function() {
+          var elementBody = document.querySelector('body');
+          var elementBtnIncreaseFont = document.getElementById('increase-font');
+          var elementBtnDecreaseFont = document.getElementById('decrease-font');
+          // Padrão de tamanho, equivale a 100% do valor definido no Body
+          var fontSize = 100;
+          // Valor de incremento ou decremento, equivale a 10% do valor do Body
+          var increaseDecrease = 10;
+      
+          // Evento de click para aumentar a fonte
+          elementBtnIncreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize + increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      
+          // Evento de click para diminuir a fonte
+          elementBtnDecreaseFont.addEventListener('click', function(event) {
+              fontSize = fontSize - increaseDecrease;
+              elementBody.style.fontSize = fontSize + '%';
+          });
+      }
+      
+      </script>
+
+
+<!--DARK MODE-->
+
+    
+      <div class="toggle">
+        
+        
+        <input type="checkbox" name="toggle" class="toggle-checkbox" id="myonoffswitch" tabindex="0" onclick="dark_mode()">
+        
+        <label class="toggle-label" for="myonoffswitch">
+            <span class="toggle-inner"></span>
+            <span class="toggle-switch"></span>
+        </label>
+    
+        
+
+    </div>
+
+
+  </div>
+
+  
+
+      <script>
+
+function dark_mode() {
+                var body = document.body;
+                body.classList.toggle("dark-mode");
+}
+
+      </script>
+
+
+
+
+    </div>
+
+  </header>
+
+
+  <!-------------header----/\-----header---/\----header----/\-----header----/\----header------/\--------->
+
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+
+
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+
+<main class="container-inicio">
+
+
+<h1 class="titulo-inicio">ENRIQUECIMENTO AMBIENTAL PARA GATOS</h1>
+
+<p class="texto-inicio">Saiba como otimizar o ambiente para o seu pet da melhor forma </p>
+
+<h1 class="titulo-inicio-dark">Saiba como adaptar o cachorro ao novo lar</h1>
+
+<p class="texto-inicio-dark">A chegada de um pet resgatado ao novo lar, pode nem sempre ser tão fácil assim, por isso venha conferir as melhores dicas de adaptção de um cão ao seu novo lar </p>
+
+<div class="stage-dark">
+  <a href="noticia2.html">LER MAIS</a>
+  </div>
+
+<div class="stage">
+  <a href="noticia1.html">LER MAIS</a>
+  </div>
+
+</main>
+
+
+
+
+  <!--------CARDS--------CARDS--------CARDS----------->
+
+
+
+  <div class="a">
+
+<div class="titulo-container-blog">
+
+    <span class="titulo-blog">Nosso</span><span class="titulo-blog-2">BLOG</span>
+
+  </div>
+
+<main>
+
+  <div class="container">
+
+   
+
+    <!--primeiro card-->
+    <div class="card">
+
+      <div class="img">
+        <img src="img-blog/img1.jpg" alt="">
+      </div>
+
+    
+
+      <div class="content">
+        <p>
+          Enriquecimento ambiental para gatos: saiba otimizar o ambiente para seu pet! 
+        </p>
+        <div class="stage2"> <a  href="noticia1.html">Ler Mais</a> </div>
+
+      </div>
+    </div>
+
+    <!--segundo card-->
+    <div class="card">
+
+      <div class="img">
+        <img src="img-blog/img3.jpg" alt="">
+      </div>
+
+      
+
+      <div class="content">
+        <p>
+          Alimentação natural para cães: saiba mais sobre a opção e veja o que oferecer a seu cachorro! </p>
+
+          <div class="stage2">
+           <a  href="noticia2.html">Ler Mais</a></div>
+
+      </div>
+    </div>
+
+    <!-----------terceiro card------------>
+
+    <div class="card">
+
+      <div class="img">
+        <img src="img-blog/img4.jpg" alt="">
+      </div>
+
+     
+
+      <div class="content">
+        <p>
+          Você sabe quais são os benefícios da castração de gatos?  </p>
+
+          <div class="stage2">
+           <a  href="noticia3.html">Ler Mais</a> </div>
+
+      </div>
+    </div>
+
+    <!-----------quarto--card------------->
+
+    <div class="card">
+
+      <div class="img">
+        <img src="img-blog/img5.jpg" alt="">
+      </div>
+
+      
+
+      <div class="content">
+        <p>
+          Saiba como adaptar o cachorro ao novo lar</p>
+
+          <div class="stage2">
+          <a  href="noticia4.html">Ler Mais</a> </div> 
+
+      </div>
+    </div>
+
+    <!-----------quinto--card------------->
+
+    <div class="card">
+
+      <div class="img">
+        <img src="img-blog/img6.jpg" alt="">
+      </div>
+
+     
+
+      <div class="content">
+        <p>
+          Gato resgatado: como habituá-lo ao novo ambiente </p>
+
+          <div class="stage2">
+         <a  href="noticia5.html">Ler Mais</a>  </div>   
+
+      </div>
+    </div>
+
+    <!-----------sexto--card------------->
+
+    <div class="card">
+
+      <div class="img">
+        <img src="img-blog/img7.jpg" alt="">
+      </div>
+
+      
+
+      <div class="content">
+        <p>
+          Cachorro abandonado: o que fazer ao encontrar um? </p>
+
+          <div class="stage2">
+           <a  href="noticia6.html">Ler Mais</a>   </div> 
+
+      </div>
+    </div>
+
+    <!-----------setimo--card------------->
+
+    <div class="card">
+
+      <div class="img">
+        <img src="img-blog/img9..jpg" alt="">
+      </div>
+
+      
+
+      <div class="content">
+        <p>
+          60 curiosidades sobre gatos </p>
+          <div class="stage2">
+            <a  href="noticia7.html">Ler Mais</a></div> 
+
+      </div>
+    </div>
+
+    <!-----------oitavo--card------------->
+
+    <div class="card">
+
+      <div class="img">
+        <img src="img-blog/img8.jpg" alt="">
+      </div>
+
+    
+
+      <div class="content">
+        <p>Veja 25 curiosidades sobre os cachorros </p>
+        <div class="stage2">
+     <a  href="noticia8.html">Ler Mais</a>     </div>
+
+      </div>
+    </div>
+
+    <!-----------nonu--card------------->
+
+    <div class="card">
+
+      <div class="img">
+        <img src="img-blog/img10.png" alt="">
+      </div>
+
+     
+
+      <div class="content">
+        <p>
+          Adaptação de gatos: como introduzir um segundo gato à casa </p>
+          <div class="stage2">
+      
+        <a  href="noticia9.html">Ler Mais</a>    </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+</main>
+
+</div>
+
+  <!--------CARDS--------CARDS--------CARDS----------->
+
+
+
+
+  <!-------footer------\/----footer-----\/-----footer-------\/----footer-----\/----footer--------\/-------->
+
+  <footer>
+    <a href="#"><div class="topo"><i class="fa-solid fa-chevron-up" style="color: #ffffff;"></i><span> Voltar ao Topo</span></div></a>
+    
+    <div class="main-footer">
+    
+    <div class="artigo-footer">
+        <span class="footer-titulo"> Mapa do Site</span>
+        <a href="lista.html">Lista Completa</a>
+        <a href="blog.html">Blog</a>
+        <a href="equipe.html">Equipe</a>
+        <a href="http://localhost/rafaelv/cadastro/index.php">Cadastre sua Ong</a>
+    </div>
+    
+    <div class="artigo-footer">
+        <span class="footer-titulo">Nossas Redes</span>
+        <div class="redes">
+          <a href="">  
+            <i class="fa-brands fa-instagram" ></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-square-facebook" ></i>
+        </a>
+        <a href="">
+            <i class="fa-brands fa-twitter"></i>
+        </a>
+        </div>
+    </div>
+    
+    <div class="artigo-footer">
+      <span class="footer-titulo"><a href="http://localhost/rafaelv/newsletter/news.php">Assine a Newsletter</a></span>
+
+    </div>
+    
+    </div><!--/main-footer/-->
+    
+    <hr>
+    
+    <span class="direitos">© 2023  Infopets - Todos os Direitos Reservados</span>
+    
+    </footer>
+
+
+  <!-------footer-----/\-----footer-----/\-----footer-----/\------footer----/\-----footer-------\/--------->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

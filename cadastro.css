@@ -1,0 +1,26 @@
+
+
+.container-cadastro {
+
+display: flex;
+flex-direction: column;
+gap: 3rem;
+
+
+}
+
+.column {
+
+display: flex;
+flex-direction: column;
+gap: 3rem;
+
+}
+
+.mensagem {
+
+    width: auto;
+height: 150px;
+text-align: center;
+
+}

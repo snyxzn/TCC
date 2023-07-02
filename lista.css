@@ -247,6 +247,17 @@ header a {
       background-color: white;
   
   }
+  .dark-mode .todo{
+    background-color: #000000;
+  }
+  
+  .dark-mode h1{
+    color: #ffffff;
+  }
+  
+  .dark-mode h2{
+    color: #ffffff;
+  }
   
     .dark-mode .artigo-equipe {
   
@@ -268,7 +279,7 @@ header a {
   
 .titulo-1 {
     
-margin-top: 5%;
+padding-top: 5%;
 
 }
 
@@ -541,6 +552,74 @@ gap: .5vh .7vw ;
 .onglista>a:hover:after {
   color:#02f938;
 }
+.botao a {
+  line-height:1em;
+  letter-spacing:0.06em;
+  font-family: 'Lato', sans-serif;
+  font-weight:normal;
+  font-size:16px;
+  text-decoration:none;
+  color:#fff;
+  background:#e22b40;
+  display:inline-block;
+  padding:15px 12px 15px 15px;
+  transition:background 200ms;
+  border-radius:4px;
+ 
+}
+.botao a:hover {
+  background:#ffffff;
+  color: #02f938;
+} 
+.botao a:after {
+  font-family: 'FontAwesome', sans-serif;
+  font-weight:300;
+  content: "\f105";
+  margin-left:20px;
+  color:#fcfcfb;
+  font-size:18px;
+  vertical-align:middle;
+  transition:color 200ms;
+}
+
+.botao a:hover:after {
+  color:#02f938;
+}
+.dark-mode .botao a {
+  color:#fff;
+  background: #181964;
+}
+.dark-mode .botao a:hover {
+  background:#ffffff;
+  color: #000000;
+} 
+.dark-mode .botao a:after {
+
+  color:#fcfcfb;
+
+}
+
+.dark-mode .botao a:hover:after {
+  color:#000000;
+}
+.dark-mode .onglista a {
+  color:#fff;
+  background: #181964;
+}
+.dark-mode .onglista a:hover {
+  background:#ffffff;
+  color: #000000;
+} 
+.dark-mode .onglista a:after {
+
+  color:#fcfcfb;
+
+}
+
+.dark-mode .onglista a:hover:after {
+  color:#000000;
+}
+
 
 /*footer*/
 

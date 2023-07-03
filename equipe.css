@@ -258,6 +258,11 @@ background-color: black;
 
   }
 
+  .dark-mode .box::after{
+    background-color: #181964;
+
+  }
+
   .dark-mode .artigo-equipe>h2 {
 
 color: white;
@@ -279,7 +284,18 @@ color: white;
     animation: rotate 3s linear infinite;
     -webkit-animation: rotate 5s linear infinite;
     }
-
+.dark-mode .fa-instagram:hover {
+  color: #db5603;
+  }
+.dark-mode .fa-linkedin:hover{
+  color: #db5603;
+  }
+.dark-mode .fa-github:hover:hover{
+  color: #db5603;
+  }
+.dark-mode .fa-github-alt:hover{
+  color: #db5603;
+  }
 h2{
     margin-top: 25vh;
     text-align: center;

@@ -2,9 +2,15 @@
 @font-face {
     font-family: fonte;
     src: url(fonte/BarlowSemiCondensed-Light.ttf);
-}
-
-@font-face {
+  }
+  
+  
+  @font-face {
+    font-family: fonte;
+    src: url(fonte/BarlowSemiCondensed-Light.ttf);
+  }
+  
+  @font-face {
     font-family: header;
     src: url(fonte/Quicksand-VariableFont_wght.ttf);
   }
@@ -13,187 +19,83 @@
     font-family: titulos;
     src: url(fonte/Rajdhani-Bold.ttf);
   }
-
-body {
-    
+  
+  
+  * {
+  
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-
-
+    border: solid rd;
+  
+  
+  }
+  
   header {
   
   font-family: header;
   font-size: 135%;
   
   }
-
-header a {
-
-    text-decoration: none;
-    color: black;
   
   
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
   }
   
-  header a:visited {
+  header a {
   
-    text-decoration: none;
-    color: black;
+      text-decoration: none;
+      color: black;
+    
+    
+    }
+    
+    header a:visited {
+    
+      text-decoration: none;
+      color: black;
+    
+    
+    }
+    
+    .container-header {
+    
+     
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      z-index: 1;
+    
+    
+    }
+    
+    .container-header>a {
+    
+      text-decoration: none;
+    
+    }
+    
+    .container-header .logo {
+    
+      width: 150px;
+      height: 80px;
+      margin-top: 1.5rem;
   
-  
-  }
-  
-  .container-header {
-  
-   
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 1;
-  
-  
-  }
-  
-  .container-header>a {
-  
-    text-decoration: none;
-  
-  }
-  
-  .container-header .logo {
-  
-    width: 150px;
-    height: 80px;
-  
-  }
-  
-  .iconc {
-  
-  width: 30px;
-  height: 30px;
-  
-  
-  }
-  
-  
-  .toggle {
-    position: relative;
-    width: 73px;
-    user-select: none;
-    float: right;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    height: 33px;
-  }
-  
-  .toggle-checkbox {
-    position: absolute;
-    opacity: 0;
-    pointer-events: none;
-  }
-  
-  .toggle-label {
-    display: block;
-    overflow: hidden;
-    cursor: pointer;
-    border: 2px solid #000000;
-    border-radius: 50px;
-  }
-  
-  .toggle-inner {
-    display: block;
-    width: 100%;
-    margin-left: -100%;
-    transition: margin 0.3s ease-in 0s;
-  }
-  
-  .toggle-inner:before,
-  .toggle-inner:after {
-    display: block;
-    float: left;
-    width: 50%;
+    
+    }
+    
+    .iconc {
+    
+    width: 30px;
     height: 30px;
-    padding: 0;
-    line-height: 30px;
-    font-size: 12px;
-    color: white;
-    font-family: Roboto;
-    font-weight: bold;
-    box-sizing: border-box;
-   
-  }
-  
-  .toggle-inner:before {
-    content: "";
-    padding-left: 8px;
-    background-color: #FFFFFF;
-    color: #000000;
-  
-  }
-  
-  .toggle-inner:after {
-    content: "";
-    padding-right: 8px;
-    background-color: #FFFFFF;
-    color: #000000;
-    text-align: right;
-  
-  }
-  
-  .toggle-switch {
-    display: block;
-    width: 25px;
-    height: 25px;
-    margin: 6px;
-    background: #FFFFFF;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 36px;
-    border: 1px solid #000000;
-    border-radius: 100px;
-    transition: all 0.3s ease-in 0s;
-    background-image: url(img/cicon.jpg);
-    background-size: cover;
-  }
-  
-  .toggle-checkbox:checked+.toggle-label .toggle-inner {
-    margin-left: 0;
-  }
-  
-  .toggle-checkbox:checked+.toggle-label .toggle-switch {
-    right: 0px;
-    background-color: #000000;
-    background-image: url(img/gicon.jpg);
-  }
-  
-  .bottom-line {
-    position: relative;
-    cursor: pointer;
-  }
-  
-  .bottom-line::after {
-    content: "";
-    position: absolute;
-    height: 1px;
-    bottom: 0;
-    left: 0px;
-    background-color: rgb(6, 6, 6);
-    transform: scaleX(0.0);
-    opacity: .8;
-    width: 100%;
-    transition: all .3s ease-in-out 0s;
-  }
-  
-  .bottom-line:hover::after {
-    transform: scaleX(1.0);
-  }
-  
-  
+    
+    
+    }
+    
 #increase-font {
 
     border: none;
@@ -202,24 +104,181 @@ header a {
     height: 35px;
     max-width: auto;
     max-height: auto;
-
-}
-
-#decrease-font {
-
-
+  
+  }
+  
+  #decrease-font {
+  
+  
     border: none;
     border-radius: 20px;
     width: 35px;
     height: 35px;
     max-width: auto;
     max-height: auto;
-
-}
-
+  
+  }
+  
+    
+    .toggle {
+      position: relative;
+      width: 73px;
+      user-select: none;
+      float: right;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      height: 33px;
+    }
+    
+    .toggle-checkbox {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+    
+    .toggle-label {
+      display: block;
+      overflow: hidden;
+      cursor: pointer;
+      border: 2px solid #000000;
+      border-radius: 50px;
+    }
+    
+    .toggle-inner {
+      display: block;
+      width: 100%;
+      margin-left: -100%;
+      transition: margin 0.3s ease-in 0s;
+    }
+    
+    .toggle-inner:before,
+    .toggle-inner:after {
+      display: block;
+      float: left;
+      width: 50%;
+      height: 30px;
+      padding: 0;
+      line-height: 30px;
+      font-size: 12px;
+      color: white;
+      font-family: Roboto;
+      font-weight: bold;
+      box-sizing: border-box;
+     
+    }
+    
+    .toggle-inner:before {
+      content: "";
+      padding-left: 8px;
+      background-color: #FFFFFF;
+      color: #000000;
+    
+    }
+    
+    .toggle-inner:after {
+      content: "";
+      padding-right: 8px;
+      background-color: #FFFFFF;
+      color: #000000;
+      text-align: right;
+    
+    }
+    
+    .toggle-switch {
+      display: block;
+      width: 25px;
+      height: 25px;
+      margin: 6px;
+      background: #FFFFFF;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 36px;
+      border: 1px solid #000000;
+      border-radius: 100px;
+      transition: all 0.3s ease-in 0s;
+      background-image: url(img/cicon.jpg);
+      background-size: cover;
+    }
+    
+    .toggle-checkbox:checked+.toggle-label .toggle-inner {
+      margin-left: 0;
+    }
+    
+    .toggle-checkbox:checked+.toggle-label .toggle-switch {
+      right: 0px;
+      background-color: #000000;
+      background-image: url(img/gicon.jpg);
+    }
+    
+    .bottom-line {
+      position: relative;
+      cursor: pointer;
+    }
+    
+    .bottom-line::after {
+      content: "";
+      position: absolute;
+      height: 1px;
+      bottom: 0;
+      left: 0px;
+      background-color: rgb(6, 6, 6);
+      transform: scaleX(0.0);
+      opacity: .8;
+      width: 100%;
+      transition: all .3s ease-in-out 0s;
+    }
+    
+    .bottom-line:hover::after {
+      transform: scaleX(1.0);
+    }
+    
+    header .a {
+    
+    padding-top: 5%;
+    
+    }
+    
+    .dark-mode .a {
+    
+      background-color: black;
+      
+      }
+    
+      .dark-mode header {
+    
+    background-color: black;
+    
+      }
+    
+      .dark-mode .container-header>a {
+    
+    color: white;
+    
+      }
+  
+      .dark-mode header img {
+    
+  
+    filter: brightness(5000%);
+    margin-bottom: 5%;
+    
+      }
+    
+      .dark-mode .bottom-line::after {
+    
+        background-color: white;
+    
+    }
+    .dark-mode .todo{
+      background-color: #000000;
+    }
+    
 
 h1 {
     text-align: center;
+    padding-bottom: 6vh;
 }
 
 .imagem1 {
@@ -509,6 +568,7 @@ h2 {
 }
 
 .corpo {
+    padding-top: 8vh;
     width: 80vw;
 
 
@@ -528,11 +588,45 @@ h2 {
     color: #000000;
     
     }
-
+    .dark-mode .prox-ant a{
+        color: #ffffff;
+    }
+.dark-mode body{
+    background-color: #000000;
+}
+.dark-mode h1{
+    color: #FFFFFF;
+}
+.dark-mode .onglista a {
+    color:#fff;
+    background: #181964;
+  }
+  .dark-mode .onglista a:hover {
+    background:#ffffff;
+    color: #000000;
+  } 
+  .dark-mode .onglista a:after {
+  
+    color:#fcfcfb;
+  
+  }
+  .dark-mode span{
+    color: #ffffff;
+  }
+  .dark-mode p{
+    color: #ffffff;
+  }
+  .dark-mode .onglista a:hover:after {
+    color:#000000;
+  }
+  .dark-mode .todo{
+    background-color: #000000;
+  }
+  
 /*footer*/
 
 footer {
-    background-color: rgb(0, 0, 0);
+    background-color: #000000;
     padding: 1vw;
     color: white;
     
